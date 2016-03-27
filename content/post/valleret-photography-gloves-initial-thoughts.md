@@ -1,6 +1,6 @@
 +++
 date = "2016-03-27"
-draft = true
+draft = false
 title = "Valleret Photography Gloves - Initial Thoughts"
 categories = [ "Photography"]
 tags = ["valleret", "gloves", "photography", "clothing", "kickstarter", "review"]
