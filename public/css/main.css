@@ -1591,6 +1591,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+		clear: both;
 		margin: 2em 0;
 	}
 
@@ -2149,6 +2150,27 @@
 			.image.main img {
 				width: 100%;
 			}
+
+			.image img.xsmall {
+				height: auto;
+				width: 128px;
+			}
+		.image img.small {
+			height: auto;
+			width: 256px;
+		}
+		.image img.medium {
+			height: auto;
+			width: 512px;
+		}
+		.image img.large {
+			height: auto;
+			width: 1024px;
+		}
+		.image img.xlarge {
+			height: auto;
+			width: 1920px;
+		}
 
 /* List */
 

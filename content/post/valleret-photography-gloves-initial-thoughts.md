@@ -1,5 +1,5 @@
 +++
-date = "2016-03-27"
+date = "2016-03-26"
 draft = false
 title = "Valleret Photography Gloves - Initial Thoughts"
 categories = [ "Photography"]

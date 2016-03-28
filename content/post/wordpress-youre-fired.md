@@ -77,4 +77,4 @@ I'm not going back to the dark ages completely, I am using a static site generat
 
 I picked Hugo as I already have Go installed on my system, I like Go and I like the simplicity of it all as well as it being actively worked on.  To help with content creation it has it's own built in web server so I can preview changes as soon as I hit save in my editor - by the time I've switched back to my browser it's already refreshing with the latest content.
 
-I'm using WebStorm from JetBrains as my editor as it's what I already use for my coding.  All I have to do to get my site live is tell it to upload any changes from my `published` folder (that's where I've told Hugo to save a copy of the generated site to) and it gets pushed out to here.
+I'm using WebStorm from JetBrains as my editor as it's what I already use for my coding.  All I have to do to get my site live is tell it to upload any changes from my `public` folder (that's where I've told Hugo to save a copy of the generated site to) and it gets pushed out to here.

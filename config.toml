@@ -4,8 +4,8 @@ title = "Me & Life"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "karlaustin"
-googleAnalytics = ""
+DisqusShortname = "karlaustin"
+googleAnalytics = "UA-75661737-1"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
