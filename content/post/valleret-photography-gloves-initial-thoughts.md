@@ -1,21 +1,21 @@
 +++
 date = "2016-03-26"
 draft = false
-title = "Valleret Photography Gloves - Initial Thoughts"
+title = "Vallerret Photography Gloves - Initial Thoughts"
 categories = [ "Photography"]
-tags = ["valleret", "gloves", "photography", "clothing", "kickstarter", "review"]
+tags = ["vallerret", "gloves", "photography", "clothing", "kickstarter", "review"]
 +++
 
-# Valleret Photography Gloves
-{{< img-post path="date" file="20160327-5399.jpg" alt="Valleret Photography Gloves" type="right" >}}
-I first came across the Valleret Photography Gloves on {{< url-link "Kickstarter" "https://www.kickstarter.com/projects/1823457299/photography-gloves-extend-your-session-in-style" >}} back in December 2015 and today they were waiting for me when I got home from the coffee morning.
+# Vallerret Photography Gloves
+{{< img-post path="date" file="20160327-5399.jpg" alt="Vallerret Photography Gloves" type="right" >}}
+I first came across the Vallerret Photography Gloves on {{< url-link "Kickstarter" "https://www.kickstarter.com/projects/1823457299/photography-gloves-extend-your-session-in-style" >}} back in December 2015 and today they were waiting for me when I got home from the coffee morning.
 
 They got my attention as I've never found a pair of gloves that will keep my hands *warm* **and** *allow* me to operate my camera as well.  It was either cold hands or fumbling with the camera, with the increased risk of dropping it.  These gloves are designed for photographers and come with some useful features as well as a nice warm merino wool inner.
 
 ---
 
 ## Presentation
-Unfortunately initial impressions are a bit poor.  They've obviously tried to present them nicely whilst keeping the budget down but they've been let down by their packaging supplier.  The Valleret logo and writing have been embossed on to the carboard sleeve, but the overprint has missed by a large margin so it all looks very odd and amateur.   The sleeve itself is supposed to be regtangular, but again they've been let down as it hasn't been folded up in to shape so it's half flat, half popped up on one side.  The die cut logo on the front is also tatty, it looks like the die cutter has been over-used, leading to an unclean cut.
+Unfortunately initial impressions are a bit poor.  They've obviously tried to present them nicely whilst keeping the budget down but they've been let down by their packaging supplier.  The Vallerret logo and writing have been embossed on to the cardboard sleeve, but the overprint has missed by a large margin so it all looks very odd and amateur.   The sleeve itself is supposed to be rectangular, but again they've been let down as it hasn't been folded up in to shape so it's half flat, half popped up on one side.  The die cut logo on the front is also tatty, it looks like the die cutter has been over-used, leading to an unclean cut.
 
 {{< img-fit
     "6u" "20160326-5376.jpg" "Overall packaging"
@@ -44,7 +44,7 @@ I ordered a medium size based on the sizing guidelines given in the Kickstarter 
 
 ### Flipping Fingers
 {{< img-post path="date" file="20160326-5384.jpg" alt="Baggy thumb" type="left" size="small" >}}
-There also appears to be another small problem, the forefinger and thumb have flip over finger ends, so if you need you can get better control over your camera.  The forefinger closes up perfectly, you'd not know it was there, the thumb however doesn't, gloves on or off it won't stay closed up on either hand.  I don't know if this is a manufacturing fault or just how they've been designed, so I'll be contacting Valleret to ask about it as the idea is that these should keep your fingers completely covered and warm when needed.
+There also appears to be another small problem, the forefinger and thumb have flip over finger ends, so if you need you can get better control over your camera.  The forefinger closes up perfectly, you'd not know it was there, the thumb however doesn't, gloves on or off it won't stay closed up on either hand.  I don't know if this is a manufacturing fault or just how they've been designed, so I'll be contacting Vallerret to ask about it as the idea is that these should keep your fingers completely covered and warm when needed.
 
 ---
 
@@ -66,8 +66,8 @@ The baggy thumb is really annoying though, you really notice the feel of it when
 ---
 
 ## Final Thoughts
-They feel warm, and with the exception of the floppy thumb my 5d3 and 7d2 are easy enough to operate without the finger/thumb flipped back which is good. The final proof will be in the shooting when the cold weather comes back round again, I'm hopefuly they'll make autumn location shoots much more confortable.
+They feel warm, and with the exception of the floppy thumb my 5d3 and 7d2 are easy enough to operate without the finger/thumb flipped back which is good. The final proof will be in the shooting when the cold weather comes back round again, I'm hopefully they'll make autumn location shoots much more comfortable.
 
 What | Price | Verdict
 --- | --- | ---
-{{< url-link "Valleret Photography Gloves" "https://photographygloves.com/" >}} | 550kr / ~&pound;47 | 7/10
+{{< url-link "Vallerret Photography Gloves" "https://photographygloves.com/" >}} | 550kr / ~&pound;47 | 7/10
