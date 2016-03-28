@@ -2172,6 +2172,30 @@
 			width: 1920px;
 		}
 
+		@media screen and (max-width: 736px) {
+			.image img.xsmall {
+				height: auto;
+				width: 50px;
+			}
+			.image img.small {
+				height: auto;
+				width: 100px;
+			}
+			.image img.medium {
+				height: auto;
+				width: 200px;
+			}
+			.image img.large {
+				height: auto;
+				width: 400px;
+			}
+			.image img.xlarge {
+				height: auto;
+				width: 700px;
+			}
+
+		}
+
 /* List */
 
 	ol {
