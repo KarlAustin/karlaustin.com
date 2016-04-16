@@ -3,7 +3,7 @@ date = "2016-04-16"
 draft = false
 title = "Claiming a Facebook Page - Nightmare!"
 categories = [ "Internet" ]
-tags = ["internet", "websites", "facebook"]
+tags = ["internet", "website", "facebook"]
 +++
 
 # What a PITA
