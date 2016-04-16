@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Me &amp; Life</title>
+    <link>http://karlaustin.com/categories/internet/</link>
+    <description>Recent content in Internet on Me &amp; Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 16 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://karlaustin.com/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Claiming a Facebook Page - Nightmare!</title>
+      <link>http://karlaustin.com/post/facebook-claiming-a-page/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://karlaustin.com/post/facebook-claiming-a-page/</guid>
+      <description>
+
+&lt;h1 id=&#34;what-a-pita:b7f47509e66c6c65a88ac76589690692&#34;&gt;What a PITA&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;m the technical admin of the 
+
+    
+        
+    
+
+    &lt;a href=&#34;http://www.whitwellcommunitycentre.com&#34; target=&#39;_blank&#39;&gt;Whitwell Community Centre&lt;/a&gt;
+
+ Facebook page.  Every now and then someone will create a new Facebook Location for the centre and when we spot them, we merge them in to the main page, pretty standard stuff.&lt;/p&gt;
+
+&lt;h1 id=&#34;don-t-make-it-easy-will-you:b7f47509e66c6c65a88ac76589690692&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h1&gt;
+
+&lt;p&gt;Facebook don&amp;rsquo;t make it easy, this time it has been a right pain.  I tried to merge the location in with the official page, unfortunately the official page wasn&amp;rsquo;t listed int he drop down of pages I could merge it with.&lt;/p&gt;
+
+&lt;p&gt;As an alternative I thought I&amp;rsquo;d just try and claim it as the owner, part of that is adding an email address from the organisation to your profile.  Easy enough right? &lt;em&gt;Oh no&lt;/em&gt;, my email address is in the form of &lt;code&gt;admin@&lt;/code&gt; which Facebook promptly told me isn&amp;rsquo;t a valid email address - which is funny, as I&amp;rsquo;ve been getting email at it for several years now.  So off I pop to configure a different email address, which Facebook then willingly accepts.&lt;/p&gt;
+
+&lt;p&gt;Thinking that this might have changed the merge outcome I have another go, &lt;em&gt;nope&lt;/em&gt;, still not listed in the drop down.&lt;/p&gt;
+
+&lt;p&gt;Facebook do say that the pages need to have similar names (they have exactly the same name) and be of the same type.  Now trying to work out how to get the official page to say just &amp;ldquo;Community Centre&amp;rdquo; is what was fun, it took 30 minutes of experimenting to work that one out, trying different combinations of types and sub-categories. Why I can&amp;rsquo;t just type in &amp;ldquo;Community Centre&amp;rdquo; and it suggest the appropriate options I will never know.&lt;/p&gt;
+
+&lt;h1 id=&#34;arghhhhh:b7f47509e66c6c65a88ac76589690692&#34;&gt;Arghhhhh&lt;/h1&gt;
+
+&lt;p&gt;Now we have everything matching, the name, the type of organisation and yet it &lt;strong&gt;still&lt;/strong&gt; won&amp;rsquo;t list the official page in the drop down for me to merge it with.&lt;/p&gt;
+
+&lt;p&gt;How a company with so many developers and experts in their field can make such a user hostile system I will never know. It should not be this difficult.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
