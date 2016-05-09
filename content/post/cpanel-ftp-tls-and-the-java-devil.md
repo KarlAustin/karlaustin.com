@@ -8,7 +8,7 @@ tags = ["internet", "website", "cpanel", "security"]
 
 If you've gone to edit your site and suddenly found that your chosen IDE won't connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they're running v56 and your IDE is written in Java.
 
-I hit this issue with another website late last week.  Your IDE probably just says it can't connect, that's what JetBrains WebStorm and PhpStorm do although the logs did give more information:
+I hit this issue with another website late last week, where the DH params had already been re-generated to 2048 bit, but that change removed.  Your IDE probably just says it can't connect, that's what JetBrains WebStorm and PhpStorm do although the logs did give more information:
 <pre>
 Caused by: java.security.InvalidAlgorithmParameterException:
 Prime size must be multiple of 64, and can only range from 512 to 2048 (inclusive)
@@ -23,7 +23,7 @@ Only Java 8 supports 2048bit DH params, v7 supports a maximum of 1024bit.
 
 The big problem is that Java 8 supports only a *maximum* of 2048bit, this is where we hit an issue with cPanel v56.
 
-<h2>Oooops cPanel</h2>
+<h2>Oops cPanel</h2>
 It seems that on April 20th 2016 cPanel pushed out an update that generated new dhparams for pure-ftpd, but they didn't fully understand the warnings around Java, as they generated 3072 bit DH params, which you can verify with the following command:
 
 <pre>
