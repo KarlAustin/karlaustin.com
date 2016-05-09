@@ -6,8 +6,62 @@
     <description>Recent content on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 16 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://karlaustin.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cPanel - Broken FTPS (FTP over TLS) with Java Clients</title>
+      <link>http://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.&lt;/p&gt;
+
+&lt;p&gt;I hit this issue with another website late last week.  Your IDE probably just says it can&amp;rsquo;t connect, that&amp;rsquo;s what JetBrains WebStorm and PhpStorm do although the logs did give more information:
+&lt;pre&gt;
+Caused by: java.security.InvalidAlgorithmParameterException:
+Prime size must be multiple of 64, and can only range from 512 to 2048 (inclusive)
+&lt;/pre&gt;
+NetBeans gave the game away sooner by giving the error from Java about DH parameters.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Weak DH Keys&lt;/h2&gt;
+The root cause of the issue is a problem with weak Diffie-Hellman key sizes, widely reported as the Logjam attack.  The recommendation is to move to 2048 bit prime number sizes which sounds brilliant, but then&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Damn you Java&lt;/h2&gt;
+Only Java 8 supports 2048bit DH params, v7 supports a maximum of 1024bit.&lt;/p&gt;
+
+&lt;p&gt;The big problem is that Java 8 supports only a &lt;em&gt;maximum&lt;/em&gt; of 2048bit, this is where we hit an issue with cPanel v56.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Oooops cPanel&lt;/h2&gt;
+It seems that on April 20th 2016 cPanel pushed out an update that generated new dhparams for pure-ftpd, but they didn&amp;rsquo;t fully understand the warnings around Java, as they generated 3072 bit DH params, which you can verify with the following command:&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;
+openssl dh -in /etc/ssl/private/pure-ftpd-dhparams.pem -text -noout
+&lt;/pre&gt;
+You&amp;rsquo;ll see output like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;
+Diffie-Hellman-Parameters: (3072 bit)
+    prime:
+        00:80:26:5e:fe:c9:8e:63:2d:6d:52:3e:ab:4c:49:
+        &lt;snip&gt;
+&lt;/pre&gt;
+As you can see, 3072 bit.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Fixing it&lt;/h2&gt;
+Fortunately the fix is easy:&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;
+cp /etc/ssl/private/pure-ftpd-dhparams.pem /etc/ssl/private/pure-ftpd-dhparams.pem.bak
+openssl dhparam -out /etc/ssl/private/pure-ftpd-dhparams.pem 2048
+service pure-ftpd restart
+&lt;/pre&gt;
+We&amp;rsquo;ve backed up the existing params just in case and generated new ones for pure-ftpd to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Will it break again?&lt;/h2&gt;
+That remains to be seen.  The issue has been reported to cPanel, so hopefully it won&amp;rsquo;t break as we&amp;rsquo;re not just talking a few IDEs here like JetBrains, NetBeans etc. there are also countless ERP systems out there that use Java and a lot of them shuffle files (such as orders, tracking info for shipping) in and out via FTP with their customers and suppliers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Claiming a Facebook Page - Nightmare!</title>
