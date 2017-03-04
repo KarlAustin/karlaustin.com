@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Me &amp; Life</title>
-    <link>http://karlaustin.com/tags/software/</link>
+    <link>https://karlaustin.com/tags/software/index.xml</link>
     <description>Recent content in Software on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 27 Mar 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://karlaustin.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://karlaustin.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Wordpress, you&#39;re fired!</title>
-      <link>http://karlaustin.com/post/wordpress-youre-fired/</link>
+      <link>https://karlaustin.com/post/wordpress-youre-fired/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/wordpress-youre-fired/</guid>
+      <guid>https://karlaustin.com/post/wordpress-youre-fired/</guid>
       <description>
 
-&lt;h1 id=&#34;the-honeymoon-is-over:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;The Honeymoon Is Over&lt;/h1&gt;
+&lt;h1 id=&#34;the-honeymoon-is-over&#34;&gt;The Honeymoon Is Over&lt;/h1&gt;
 
 &lt;p&gt;Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site.  It&amp;rsquo;s going though.&lt;/p&gt;
 
@@ -25,7 +24,7 @@
 
 &lt;p&gt;Instead of needing to know how to write some HTML, you now need to know how to use all the features of Wordpress, which plugins work with other plugins and how to tweak everything to get the best out of it - or you need to pay someone to do it for you.&lt;/p&gt;
 
-&lt;h2 id=&#34;popularity-has-it-s-problems:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Popularity Has It&amp;rsquo;s Problems&lt;/h2&gt;
+&lt;h2 id=&#34;popularity-has-it-s-problems&#34;&gt;Popularity Has It&amp;rsquo;s Problems&lt;/h2&gt;
 
 &lt;p&gt;Wordpress powers roughly  25% off all websites on internet and due to that popularity it has every hacker out there looking at it and trying to find a weakness.  When you consider the volume of plugins and themes as well as the core of Wordpress that&amp;rsquo;s an awful lot of places to find a way in to your website.&lt;/p&gt;
 
@@ -33,13 +32,13 @@
 
 &lt;p&gt;Using some obscure system that no one has heard of is no better, security by obscurity is not security at all.  It&amp;rsquo;s the software equivalent of putting your fingers in your ears and shouting, &amp;ldquo;LA LA LAAA I CAN&amp;rsquo;T HEAR YOU&amp;rdquo;.&lt;/p&gt;
 
-&lt;h2 id=&#34;install-and-forget:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Install And Forget&lt;/h2&gt;
+&lt;h2 id=&#34;install-and-forget&#34;&gt;Install And Forget&lt;/h2&gt;
 
 &lt;p&gt;The big problem we find at KDA is that a lot of web designers will setup a website for their customers using Wordpress, because the customer wants a site they can update themselves, then they don&amp;rsquo;t provide any training or advice on how to maintain the website going forwards though, so most people get their shiny new website and then that&amp;rsquo;s it.&lt;/p&gt;
 
 &lt;p&gt;The day it is handed over is usually the last time it ever gets updated right up until the point it is hacked and we have to restore the account from a backup, get it upgraded and hope the designer didn&amp;rsquo;t do anything stupid that will break it.&lt;/p&gt;
 
-&lt;h3 id=&#34;no-sane-defaults:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;No Sane Defaults&lt;/h3&gt;
+&lt;h3 id=&#34;no-sane-defaults&#34;&gt;No Sane Defaults&lt;/h3&gt;
 
 &lt;p&gt;Unfortunately Wordpress doesn&amp;rsquo;t come with any sane defaults that would stop 99% of hacks in their tracks.  More often than not, a Wordpress site is exploited by someone uploading a PHP or Perl script to the server via the upload functionality, so you end up with some PHP or Perl code inside the &lt;code&gt;wp-content/uploads&lt;/code&gt; directory which of course is publicly accessible so the hacker just pops along to your site and executes the code.  50ms later they&amp;rsquo;ve got control of your site and any others in the same account.&lt;/p&gt;
 
@@ -63,23 +62,23 @@
 
 &lt;p&gt;Which would only allow access to &lt;code&gt;.jpg&lt;/code&gt;, &lt;code&gt;.jpeg&lt;/code&gt;, &lt;code&gt;.gif&lt;/code&gt;, &lt;code&gt;.png&lt;/code&gt;, &lt;code&gt;.pdf&lt;/code&gt; files.  It should still of course raise a red flag if you try and allow &lt;code&gt;.php&lt;/code&gt;, &lt;code&gt;.pl&lt;/code&gt; etc.&lt;/p&gt;
 
-&lt;h4 id=&#34;a-plugin-could-do-that:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;A Plugin Could Do That&lt;/h4&gt;
+&lt;h4 id=&#34;a-plugin-could-do-that&#34;&gt;A Plugin Could Do That&lt;/h4&gt;
 
 &lt;p&gt;I&amp;rsquo;m sure someone could implement a plugin to do this, but again it comes down to something lacking in the core of Wordpress.  There isn&amp;rsquo;t enough emphasis on stopping stupid security blunders from happening and shutting down 99% of exploits.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s &lt;em&gt;incredibly&lt;/em&gt; frustrating.&lt;/p&gt;
 
-&lt;h2 id=&#34;but-surely-you-update:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;But Surely You Update&lt;/h2&gt;
+&lt;h2 id=&#34;but-surely-you-update&#34;&gt;But Surely You Update&lt;/h2&gt;
 
 &lt;p&gt;Yes, I can keep on top of my sites, as I see the pain it brings pretty much every week to customers, but even I&amp;rsquo;ve been caught out before by being a couple of hours too slow.  I am getting fed up of keeping on top of it all for multiple sites when more often than not it is overkill.&lt;/p&gt;
 
 &lt;p&gt;Yes Wordpress makes it easy to add all sorts of features to a site, but all those features inevitably slow the site down and add to the maintenance burden.  I don&amp;rsquo;t know about you, but I just want to write content for my sites, not have to keep updating everything every five minutes.&lt;/p&gt;
 
-&lt;h2 id=&#34;won-t-somebody-think-of-the-children:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Won&amp;rsquo;t Somebody Think Of The Children?&lt;/h2&gt;
+&lt;h2 id=&#34;won-t-somebody-think-of-the-children&#34;&gt;Won&amp;rsquo;t Somebody Think Of The Children?&lt;/h2&gt;
 
 &lt;p&gt;A little thought project for you.  If you assume 75% (I bet it&amp;rsquo;s more) of all website running Wordpress are nothing more than what you&amp;rsquo;d typically call Brochure-ware then how much server processing is being wasted on making these sites available?  How many extra servers does that add up to? The electricity?  It&amp;rsquo;s quite scary really when you start to think about it.&lt;/p&gt;
 
-&lt;h1 id=&#34;my-solution:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;My Solution&lt;/h1&gt;
+&lt;h1 id=&#34;my-solution&#34;&gt;My Solution&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;m going back to a static HTML/CSS website for several reasons:&lt;/p&gt;
 
@@ -91,7 +90,7 @@
 &lt;li&gt;I can keep track of edits and versions with git, something I use every day, no 3rd party Wordpress plugin required - that might stop working!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;not-completely-technology-free:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Not Completely Technology Free&lt;/h2&gt;
+&lt;h2 id=&#34;not-completely-technology-free&#34;&gt;Not Completely Technology Free&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m not going back to the dark ages completely, I am using a static site generator that supports themes etc. to help me generate the content on my laptop.  I am using 
 

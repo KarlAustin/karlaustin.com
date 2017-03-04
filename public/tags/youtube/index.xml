@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youtube on Me &amp; Life</title>
-    <link>http://karlaustin.com/tags/youtube/</link>
+    <link>https://karlaustin.com/tags/youtube/index.xml</link>
     <description>Recent content in Youtube on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://karlaustin.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://karlaustin.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Social Media Page Templates</title>
-      <link>http://karlaustin.com/post/social-media-page-templates/</link>
+      <link>https://karlaustin.com/post/social-media-page-templates/</link>
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/social-media-page-templates/</guid>
+      <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
       <description>&lt;p&gt;
 
 
@@ -24,10 +23,8 @@
         
         
         
-        
     
 
-    
     
     
     
@@ -48,7 +45,7 @@
 
     
         &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; class=&#34;&#34; /&gt;
+            &lt;img src=&#34;https://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; /&gt;
         &lt;/span&gt;
     
 

@@ -2,19 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me &amp; Life</title>
-    <link>http://karlaustin.com/</link>
+    <link>https://karlaustin.com/index.xml</link>
     <description>Recent content on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 20 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://karlaustin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2017 18:41:30 +0000</lastBuildDate>
+    <atom:link href="https://karlaustin.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Peertools: Automated notification of unsolicited BGP Open requests at peering points</title>
+      <link>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</link>
+      <pubDate>Sat, 04 Mar 2017 18:41:30 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-problem&#34;&gt;The Problem&lt;/h1&gt;
+
+&lt;p&gt;When you connect to an internet peering exchange, the IP addresses you&amp;rsquo;re given for your interfaces will most likely have been used by someone else prior to you, that has left the exchange.&lt;/p&gt;
+
+&lt;p&gt;This means, because we&amp;rsquo;re not all good at housekeeping, that you&amp;rsquo;ll end up with ISPs trying to open up BGP sessions with your routers and if you&amp;rsquo;re not firewalling them out then you&amp;rsquo;ll end up with a lot of messages about BGP Opens being received from unconfigured neighbours.  If you&amp;rsquo;re firewalling (and you should be) and you&amp;rsquo;re logging you&amp;rsquo;ll end up with a lot of hits logged against port 179.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-solution&#34;&gt;The Solution&lt;/h1&gt;
+
+&lt;p&gt;Ideally you&amp;rsquo;d like everyone to keep their peering neat and tidy, but we&amp;rsquo;re not in an ideal world unfortunately.  So I came up with a tool that will:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scan your message log for BGP opens from unconfigured neighbours&lt;/li&gt;
+&lt;li&gt;Scan your message log for TCP with unexpected MD5&lt;/li&gt;
+&lt;li&gt;Scan your firewall log for connections to port 179 that have been dropped&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This catches most instances and you end up with a list of IP address, the system then:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Looks at the peering point data to see what ASN the IP address is assigned to&lt;/li&gt;
+&lt;li&gt;Checks PeeringDB for a peering contact for the ASN&lt;/li&gt;
+&lt;li&gt;Emails the peering contact based on the email template, which by default shows the peering LAN and IP addresses trying to open sessions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-it-supports-right-now&#34;&gt;What It Supports Right Now&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JunOS 12.x - It may work with other versions of JunOS, but that&amp;rsquo;s what it has been tested with.&lt;/li&gt;
+&lt;li&gt;SSH - Key based SSH for connecting to JunOS&lt;/li&gt;
+&lt;li&gt;LINX - Currently it is hard coded to work with LINX, The London Internet Exchange.&lt;/li&gt;
+&lt;li&gt;PeeringDB - Only PeeringDB is supported at the moment for fetching an AS numbers peering contacts&lt;/li&gt;
+&lt;li&gt;Email - Email is the current form of contact&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-it-can-support-right-now-if-you-want-to-write-a-module&#34;&gt;What It Can Support Right Now If You Want To Write a Module?&lt;/h1&gt;
+
+&lt;p&gt;The router code is modularised and self contained, so any router or switch can be supported.&lt;/p&gt;
+
+&lt;p&gt;The router class includes what commands to execute to fetch and parse the data in to an IP address.  Additional commands are added in to an array.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-future&#34;&gt;The Future&lt;/h1&gt;
+
+&lt;p&gt;The aim is to make a simple suite of tools for small ISPs without their own staff to better manage their peering relationships.  The next evolution will hopefully add tracking support, so it will log when you last emailed a given peer and allow you to set a time period for them to respond before it emails again.&lt;/p&gt;
+
+&lt;h1 id=&#34;where-can-i-find-it&#34;&gt;Where Can I Find It?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/KarlAustin/peertools&#34;&gt;https://github.com/KarlAustin/peertools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The code is currently still a little rough in places, as it was quickly built to deal with the 30 or so IPs hitting our peering routers every few seconds.  So far we&amp;rsquo;ve had a couple of ISPs stop and several agree to peer with us.  Please feel to contribute or comment.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sample Packs from Printing Companies</title>
-      <link>http://karlaustin.com/post/printer-sample-packs-and-fail/</link>
+      <link>https://karlaustin.com/post/printer-sample-packs-and-fail/</link>
       <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/printer-sample-packs-and-fail/</guid>
+      <guid>https://karlaustin.com/post/printer-sample-packs-and-fail/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been busy the last couple of months putting things in place to get Ilumia Images up and running as its own business and as part of that I needed some printing done for business cards and some other items.  I spent quite a bit of time on Google looking at options etc. and send off for sample print packs from 4 different printers
@@ -23,156 +83,40 @@
  - digitalprinting.co.uk
  - JAK Inc&lt;/p&gt;
 
-&lt;h2 id=&#34;delivery:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Delivery&lt;/h2&gt;
+&lt;h2 id=&#34;delivery&#34;&gt;Delivery&lt;/h2&gt;
 
 &lt;p&gt;The first three of those all arrived within 3 days and all presented very nicely.  The fourth, from JAK Ink arrived after 8 days, one day after I&amp;rsquo;d placed my order elsewhere.&lt;/p&gt;
 
-&lt;h2 id=&#34;presentation:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Presentation&lt;/h2&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
 
-&lt;h3 id=&#34;printed-com:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Printed.com&lt;/h3&gt;
+&lt;h3 id=&#34;printed-com&#34;&gt;Printed.com&lt;/h3&gt;
 
 &lt;p&gt;A clean white A5 envelope, with an A5 folder and a number of A5 sample sheets of paper in them.  The papers also had a nice touch on the back of them, showing how a set of colour swatches would be printed on to that paper, which I think is a great touch.&lt;/p&gt;
 
-&lt;h3 id=&#34;solopress-com:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Solopress.com&lt;/h3&gt;
+&lt;h3 id=&#34;solopress-com&#34;&gt;Solopress.com&lt;/h3&gt;
 
 &lt;p&gt;Solopress were the flashiest, sending out a perfect bound sample book of various papers and finishes in a metallic blue bubble envelope which I wish I&amp;rsquo;d taken a photograph of.  Not only did it show off their different papers and finishes very well, it also showcased their binding and felt very professional and something I could easily keep on my shelf for future reference.&lt;/p&gt;
 
-&lt;h3 id=&#34;digitalprinting-co-uk:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;digitalprinting.co.uk&lt;/h3&gt;
+&lt;h3 id=&#34;digitalprinting-co-uk&#34;&gt;digitalprinting.co.uk&lt;/h3&gt;
 
 &lt;p&gt;Another folder, this time A4 inside the nice white envelope.  Inside the folder there were a selection of items such as business cards, stickers, compliment slips, postcards etc. that showed off their range of products and finishes.&lt;/p&gt;
 
-&lt;h3 id=&#34;jak-inc:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;JAK Inc&lt;/h3&gt;
+&lt;h3 id=&#34;jak-inc&#34;&gt;JAK Inc&lt;/h3&gt;
 
 &lt;p&gt;Talk about disappointing.  After waiting for a week after the first sample pack turned up I was expecting something a bit special, how wrong I was.  What I got was a small pink envelope with four postcard sized print samples and two business card samples inside.  The only indication of who these samples were from was the handwritten &amp;ldquo;Jak Inc&amp;rdquo; on the inside of the envelope flap.  For a company that makes products that are all about presentation and making a good impression, their first impressions were incredibly poor compared to their similarly priced competition.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-samples:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;The samples&lt;/h2&gt;
+&lt;h2 id=&#34;the-samples&#34;&gt;The samples&lt;/h2&gt;
 
 
 
 
-    
-
-    
-    
 
 
-
-
-    
-    
-        
-    
-
-
-    
-
-    &lt;div class=&#34;box alt&#34;&gt;
-        &lt;div class=&#34;row uniform&#34;&gt;
-        
-        
-        
-            
-                &lt;div class=&#34;6u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/05/IMG_20160520_201623.jpg&#39;
-                            alt=&#34;Printed.com&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u$&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/05/IMG_20160520_201702.jpg&#39;
-                            alt=&#34;Solopress&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/05/IMG_20160520_201829.jpg&#39;
-                            alt=&#34;digitalprinting.co.uk&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u$&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/05/IMG_20160520_201927.jpg&#39;
-                            alt=&#34;JAK Inc&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-
-&lt;h2 id=&#34;print-quality:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Print Quality&lt;/h2&gt;
+&lt;h2 id=&#34;print-quality&#34;&gt;Print Quality&lt;/h2&gt;
 
 &lt;p&gt;All of the samples were of a good quality with nothing really to chose between them, despite what my phone pictures above might be telling you.&lt;/p&gt;
 
-&lt;h2 id=&#34;decision:ef2502792fe86cfd8ea312fde2cb269d&#34;&gt;Decision&lt;/h2&gt;
+&lt;h2 id=&#34;decision&#34;&gt;Decision&lt;/h2&gt;
 
 &lt;p&gt;I picked Printed.com for my business cards, as only they and JAK Inc offered the velvet finish I wanted.  For the compliment slips and letterheads I went with Solopress as they were considerably cheaper than Printed.com and digitalprinting.co.uk.  Once everything arrives I&amp;rsquo;ll post up a review of both of them.&lt;/p&gt;
 </description>
@@ -180,10 +124,10 @@
     
     <item>
       <title>cPanel - Broken FTPS (FTP over TLS) with Java Clients</title>
-      <link>http://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</link>
+      <link>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</link>
       <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid>
+      <guid>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid>
       <description>
 
 &lt;p&gt;If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.&lt;/p&gt;
@@ -195,17 +139,17 @@ Prime size must be multiple of 64, and can only range from 512 to 2048 (inclusiv
 &lt;/pre&gt;
 NetBeans gave the game away sooner by giving the error from Java about DH parameters.&lt;/p&gt;
 
-&lt;h2 id=&#34;weak-dh-keys:5636db6ebf579be2f27229e5248cab29&#34;&gt;Weak DH Keys&lt;/h2&gt;
+&lt;h2 id=&#34;weak-dh-keys&#34;&gt;Weak DH Keys&lt;/h2&gt;
 
 &lt;p&gt;The root cause of the issue is a problem with weak Diffie-Hellman key sizes, widely reported as the Logjam attack.  The recommendation is to move to 2048 bit prime number sizes which sounds brilliant, but then&amp;hellip;.&lt;/p&gt;
 
-&lt;h2 id=&#34;damn-you-java:5636db6ebf579be2f27229e5248cab29&#34;&gt;Damn you Java&lt;/h2&gt;
+&lt;h2 id=&#34;damn-you-java&#34;&gt;Damn you Java&lt;/h2&gt;
 
 &lt;p&gt;Only Java 8 supports 2048bit DH params, v7 supports a maximum of 1024bit.&lt;/p&gt;
 
 &lt;p&gt;The big problem is that Java 8 supports only a &lt;em&gt;maximum&lt;/em&gt; of 2048bit, this is where we hit an issue with cPanel v56.&lt;/p&gt;
 
-&lt;h2 id=&#34;oops-cpanel:5636db6ebf579be2f27229e5248cab29&#34;&gt;Oops cPanel&lt;/h2&gt;
+&lt;h2 id=&#34;oops-cpanel&#34;&gt;Oops cPanel&lt;/h2&gt;
 
 &lt;p&gt;It seems that on April 20th 2016 cPanel pushed out an update that generated new dhparams for pure-ftpd, but they didn&amp;rsquo;t fully understand the warnings around Java, as they generated 3072 bit DH params, which you can verify with the following command:&lt;/p&gt;
 
@@ -222,7 +166,7 @@ Diffie-Hellman-Parameters: (3072 bit)
 &lt;/pre&gt;
 As you can see, 3072 bit.&lt;/p&gt;
 
-&lt;h2 id=&#34;fixing-it:5636db6ebf579be2f27229e5248cab29&#34;&gt;Fixing it&lt;/h2&gt;
+&lt;h2 id=&#34;fixing-it&#34;&gt;Fixing it&lt;/h2&gt;
 
 &lt;p&gt;Fortunately the fix is easy:&lt;/p&gt;
 
@@ -233,7 +177,7 @@ service pure-ftpd restart
 &lt;/pre&gt;
 We&amp;rsquo;ve backed up the existing params just in case and generated new ones for pure-ftpd to use.&lt;/p&gt;
 
-&lt;h2 id=&#34;will-it-break-again:5636db6ebf579be2f27229e5248cab29&#34;&gt;Will it break again?&lt;/h2&gt;
+&lt;h2 id=&#34;will-it-break-again&#34;&gt;Will it break again?&lt;/h2&gt;
 
 &lt;p&gt;That remains to be seen.  The issue has been reported to cPanel, so hopefully it won&amp;rsquo;t break as we&amp;rsquo;re not just talking a few IDEs here like JetBrains, NetBeans etc. there are also countless ERP systems out there that use Java and a lot of them shuffle files (such as orders, tracking info for shipping) in and out via FTP with their customers and suppliers.&lt;/p&gt;
 </description>
@@ -241,13 +185,13 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
     
     <item>
       <title>Claiming a Facebook Page - Nightmare!</title>
-      <link>http://karlaustin.com/post/facebook-claiming-a-page/</link>
+      <link>https://karlaustin.com/post/facebook-claiming-a-page/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/facebook-claiming-a-page/</guid>
+      <guid>https://karlaustin.com/post/facebook-claiming-a-page/</guid>
       <description>
 
-&lt;h1 id=&#34;what-a-pita:b7f47509e66c6c65a88ac76589690692&#34;&gt;What a PITA&lt;/h1&gt;
+&lt;h1 id=&#34;what-a-pita&#34;&gt;What a PITA&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;m the technical admin of the 
 
@@ -259,7 +203,7 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
 
  Facebook page.  Every now and then someone will create a new Facebook Location for the centre and when we spot them, we merge them in to the main page, pretty standard stuff.&lt;/p&gt;
 
-&lt;h2 id=&#34;don-t-make-it-easy-will-you:b7f47509e66c6c65a88ac76589690692&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h2&gt;
+&lt;h2 id=&#34;don-t-make-it-easy-will-you&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h2&gt;
 
 &lt;p&gt;Facebook don&amp;rsquo;t make it easy, this time it has been a right pain.  I tried to merge the location in with the official page, unfortunately the official page wasn&amp;rsquo;t listed int he drop down of pages I could merge it with.&lt;/p&gt;
 
@@ -269,33 +213,71 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
 
 &lt;p&gt;Facebook do say that the pages need to have similar names (they have exactly the same name) and be of the same type.  Now trying to work out how to get the official page to say just &amp;ldquo;Community Centre&amp;rdquo; is what was fun, it took 30 minutes of experimenting to work that one out, trying different combinations of types and sub-categories. Why I can&amp;rsquo;t just type in &amp;ldquo;Community Centre&amp;rdquo; and it suggest the appropriate options I will never know.&lt;/p&gt;
 
-&lt;h2 id=&#34;arghhhhh:b7f47509e66c6c65a88ac76589690692&#34;&gt;Arghhhhh&lt;/h2&gt;
+&lt;h2 id=&#34;arghhhhh&#34;&gt;Arghhhhh&lt;/h2&gt;
 
 &lt;p&gt;Now we have everything matching, the name, the type of organisation and yet it &lt;strong&gt;still&lt;/strong&gt; won&amp;rsquo;t list the official page in the drop down for me to merge it with.&lt;/p&gt;
 
 &lt;p&gt;How a company with so many developers and experts in their field can make such a user hostile system I will never know. It should not be this difficult.&lt;/p&gt;
 
-&lt;h1 id=&#34;final-hope:b7f47509e66c6c65a88ac76589690692&#34;&gt;Final Hope&lt;/h1&gt;
+&lt;h1 id=&#34;final-hope&#34;&gt;Final Hope&lt;/h1&gt;
 
 &lt;p&gt;My final hope is that having added an organisation email address and submitted a claim for admin rights on the page, that I will be able to merge it in with the official page.  &lt;em&gt;Fingers crossed&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>A Self Portrait</title>
-      <link>http://karlaustin.com/post/a-self-portrait/</link>
-      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
+      <title>cP1Con Edinburgh</title>
+      <link>https://karlaustin.com/post/cp1con-edinburgh/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/a-self-portrait/</guid>
+      <guid>https://karlaustin.com/post/cp1con-edinburgh/</guid>
       <description>
 
-&lt;h1 id=&#34;it-s-not-easy:9900cd1c197ca54ff1888fcaaacf34f0&#34;&gt;It&amp;rsquo;s Not Easy&lt;/h1&gt;
+&lt;h1 id=&#34;some-background&#34;&gt;Some Background&lt;/h1&gt;
+
+&lt;p&gt;My day job is providing web hosting, basically lots of computers connected to the internet via the network we run, people then place their websites on the servers so the whole world can see them.&lt;/p&gt;
+
+&lt;p&gt;To make that easier for us and for our customers we have some nice control panel software that allows people to set up their email addresses, their out of office, configure the settings for their website, create databases for their website etc. etc.   That software is 
+
+    
+        
+    
+
+    &lt;a href=&#34;http://cpanel.com&#34; target=&#39;_blank&#39;&gt;cPanel&lt;/a&gt;
+
+, it&amp;rsquo;s a bit of software we&amp;rsquo;ve been using since late 2000.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-conferences&#34;&gt;The Conferences&lt;/h1&gt;
+
+&lt;p&gt;For the last 10 years cPanel have run an annual conference in the USA, it&amp;rsquo;s where they are based and where most customers are, it&amp;rsquo;s a technical event and a good chance to chat with not only the cPanel team but other hosting companies.  If you&amp;rsquo;re in the UK though it&amp;rsquo;s quite a trek and expense, especially if you&amp;rsquo;re a smaller company.&lt;/p&gt;
+
+&lt;p&gt;This year as well as the main conference they&amp;rsquo;re also doing a series of one day conferences, some in the USA and then some outside of it.  One of those was in Edinburgh on 14th April 2016 and when they&amp;rsquo;re practically in your back yard it&amp;rsquo;d be rude not to go. So we (Dean and me) did.&lt;/p&gt;
+
+&lt;h1 id=&#34;not-london&#34;&gt;Not London&lt;/h1&gt;
+
+&lt;p&gt;Yay for not choosing London, almost everything seems to be in London (with the exception of a few bits in Manchester) when it comes to the internet in the UK.  It might be where most of the infrastructure is, but it doesn&amp;rsquo;t mean that&amp;rsquo;s where all the businesses who own that infrastructure are and it gets a bit boring going to London all the time.  Not everyone was happy at the choice, but I&amp;rsquo;d never been to Scotland before, so the location was a bonus to me.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-day&#34;&gt;The Day&lt;/h1&gt;
+
+&lt;p&gt;The day started with breakfast provided by cPanel at the Sheraton, and&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Self Portrait</title>
+      <link>https://karlaustin.com/post/a-self-portrait/</link>
+      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/a-self-portrait/</guid>
+      <description>
+
+&lt;h1 id=&#34;it-s-not-easy&#34;&gt;It&amp;rsquo;s Not Easy&lt;/h1&gt;
 
 &lt;p&gt;It turns out it isn&amp;rsquo;t as easy to take a decent self portrait as you&amp;rsquo;d think.  Due to a number of factors I scrapped plans for my photo session today, but as it turned out I could actually do it but had no models, so the only one left was me.&lt;/p&gt;
 
 &lt;p&gt;One of the reasons I take photos is so that I&amp;rsquo;m not in them, I don&amp;rsquo;t like having my photo taken and even though no one else was present it still took me some time to get even slightly comfortable being the subject of my photos.&lt;/p&gt;
 
-&lt;h2 id=&#34;stay-still-man:9900cd1c197ca54ff1888fcaaacf34f0&#34;&gt;Stay Still Man!&lt;/h2&gt;
+&lt;h2 id=&#34;stay-still-man&#34;&gt;Stay Still Man!&lt;/h2&gt;
 
 &lt;p&gt;Getting yourself in the right position &amp;amp; pose each time you make a change is pretty much impossible, especially if you&amp;rsquo;ve manually focused the camera as I did to start with.  Manual focus + long focal length + non-repeatable positioning = out of focus photos.&lt;/p&gt;
 
@@ -303,270 +285,16 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
 
 &lt;p&gt;I did consider taking a bigger screen with me, but it was even more kit to load and unload so in the end I decided not to - I really should have taken it and also put some contact lenses in!&lt;/p&gt;
 
-&lt;h1 id=&#34;not-a-wasted-experience:9900cd1c197ca54ff1888fcaaacf34f0&#34;&gt;Not a Wasted Experience&lt;/h1&gt;
+&lt;h1 id=&#34;not-a-wasted-experience&#34;&gt;Not a Wasted Experience&lt;/h1&gt;
 
 &lt;p&gt;Even though I had no one else modelling for me, it wasn&amp;rsquo;t a wasted session.  I still learnt a few lessons, which is what it&amp;rsquo;s all about right now, one of them being to have some spare modelling bulbs to hand!&lt;/p&gt;
 
 &lt;p&gt;More importantly then that though, I learnt that I really do need to get off my backside and join the gym, enough is enough.  I&amp;rsquo;ve put on about 12Kg (nearly 2 stone) since we got married at the end of 2012, it&amp;rsquo;s time that it went.&lt;/p&gt;
 
-&lt;h1 id=&#34;the-results:9900cd1c197ca54ff1888fcaaacf34f0&#34;&gt;The Results&lt;/h1&gt;
+&lt;h1 id=&#34;the-results&#34;&gt;The Results&lt;/h1&gt;
 
 
 
-
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    &lt;div class=&#34;box alt&#34;&gt;
-        &lt;div class=&#34;row uniform&#34;&gt;
-        
-        
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5507.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5533.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5533-2.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5537.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5543.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5552.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5555.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5557.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5576.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;3u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/04/20160402-5595.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-        &lt;/div&gt;
-    &lt;/div&gt;
 
 
 </description>
@@ -574,10 +302,10 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
     
     <item>
       <title>Social Media Page Templates</title>
-      <link>http://karlaustin.com/post/social-media-page-templates/</link>
+      <link>https://karlaustin.com/post/social-media-page-templates/</link>
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/social-media-page-templates/</guid>
+      <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
       <description>&lt;p&gt;
 
 
@@ -587,10 +315,8 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
         
         
         
-        
     
 
-    
     
     
     
@@ -611,7 +337,7 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
 
     
         &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; class=&#34;&#34; /&gt;
+            &lt;img src=&#34;https://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; /&gt;
         &lt;/span&gt;
     
 
@@ -644,13 +370,13 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
     
     <item>
       <title>Wordpress, you&#39;re fired!</title>
-      <link>http://karlaustin.com/post/wordpress-youre-fired/</link>
+      <link>https://karlaustin.com/post/wordpress-youre-fired/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/wordpress-youre-fired/</guid>
+      <guid>https://karlaustin.com/post/wordpress-youre-fired/</guid>
       <description>
 
-&lt;h1 id=&#34;the-honeymoon-is-over:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;The Honeymoon Is Over&lt;/h1&gt;
+&lt;h1 id=&#34;the-honeymoon-is-over&#34;&gt;The Honeymoon Is Over&lt;/h1&gt;
 
 &lt;p&gt;Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site.  It&amp;rsquo;s going though.&lt;/p&gt;
 
@@ -658,7 +384,7 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
 
 &lt;p&gt;Instead of needing to know how to write some HTML, you now need to know how to use all the features of Wordpress, which plugins work with other plugins and how to tweak everything to get the best out of it - or you need to pay someone to do it for you.&lt;/p&gt;
 
-&lt;h2 id=&#34;popularity-has-it-s-problems:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Popularity Has It&amp;rsquo;s Problems&lt;/h2&gt;
+&lt;h2 id=&#34;popularity-has-it-s-problems&#34;&gt;Popularity Has It&amp;rsquo;s Problems&lt;/h2&gt;
 
 &lt;p&gt;Wordpress powers roughly  25% off all websites on internet and due to that popularity it has every hacker out there looking at it and trying to find a weakness.  When you consider the volume of plugins and themes as well as the core of Wordpress that&amp;rsquo;s an awful lot of places to find a way in to your website.&lt;/p&gt;
 
@@ -666,13 +392,13 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
 
 &lt;p&gt;Using some obscure system that no one has heard of is no better, security by obscurity is not security at all.  It&amp;rsquo;s the software equivalent of putting your fingers in your ears and shouting, &amp;ldquo;LA LA LAAA I CAN&amp;rsquo;T HEAR YOU&amp;rdquo;.&lt;/p&gt;
 
-&lt;h2 id=&#34;install-and-forget:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Install And Forget&lt;/h2&gt;
+&lt;h2 id=&#34;install-and-forget&#34;&gt;Install And Forget&lt;/h2&gt;
 
 &lt;p&gt;The big problem we find at KDA is that a lot of web designers will setup a website for their customers using Wordpress, because the customer wants a site they can update themselves, then they don&amp;rsquo;t provide any training or advice on how to maintain the website going forwards though, so most people get their shiny new website and then that&amp;rsquo;s it.&lt;/p&gt;
 
 &lt;p&gt;The day it is handed over is usually the last time it ever gets updated right up until the point it is hacked and we have to restore the account from a backup, get it upgraded and hope the designer didn&amp;rsquo;t do anything stupid that will break it.&lt;/p&gt;
 
-&lt;h3 id=&#34;no-sane-defaults:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;No Sane Defaults&lt;/h3&gt;
+&lt;h3 id=&#34;no-sane-defaults&#34;&gt;No Sane Defaults&lt;/h3&gt;
 
 &lt;p&gt;Unfortunately Wordpress doesn&amp;rsquo;t come with any sane defaults that would stop 99% of hacks in their tracks.  More often than not, a Wordpress site is exploited by someone uploading a PHP or Perl script to the server via the upload functionality, so you end up with some PHP or Perl code inside the &lt;code&gt;wp-content/uploads&lt;/code&gt; directory which of course is publicly accessible so the hacker just pops along to your site and executes the code.  50ms later they&amp;rsquo;ve got control of your site and any others in the same account.&lt;/p&gt;
 
@@ -696,23 +422,23 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
 
 &lt;p&gt;Which would only allow access to &lt;code&gt;.jpg&lt;/code&gt;, &lt;code&gt;.jpeg&lt;/code&gt;, &lt;code&gt;.gif&lt;/code&gt;, &lt;code&gt;.png&lt;/code&gt;, &lt;code&gt;.pdf&lt;/code&gt; files.  It should still of course raise a red flag if you try and allow &lt;code&gt;.php&lt;/code&gt;, &lt;code&gt;.pl&lt;/code&gt; etc.&lt;/p&gt;
 
-&lt;h4 id=&#34;a-plugin-could-do-that:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;A Plugin Could Do That&lt;/h4&gt;
+&lt;h4 id=&#34;a-plugin-could-do-that&#34;&gt;A Plugin Could Do That&lt;/h4&gt;
 
 &lt;p&gt;I&amp;rsquo;m sure someone could implement a plugin to do this, but again it comes down to something lacking in the core of Wordpress.  There isn&amp;rsquo;t enough emphasis on stopping stupid security blunders from happening and shutting down 99% of exploits.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s &lt;em&gt;incredibly&lt;/em&gt; frustrating.&lt;/p&gt;
 
-&lt;h2 id=&#34;but-surely-you-update:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;But Surely You Update&lt;/h2&gt;
+&lt;h2 id=&#34;but-surely-you-update&#34;&gt;But Surely You Update&lt;/h2&gt;
 
 &lt;p&gt;Yes, I can keep on top of my sites, as I see the pain it brings pretty much every week to customers, but even I&amp;rsquo;ve been caught out before by being a couple of hours too slow.  I am getting fed up of keeping on top of it all for multiple sites when more often than not it is overkill.&lt;/p&gt;
 
 &lt;p&gt;Yes Wordpress makes it easy to add all sorts of features to a site, but all those features inevitably slow the site down and add to the maintenance burden.  I don&amp;rsquo;t know about you, but I just want to write content for my sites, not have to keep updating everything every five minutes.&lt;/p&gt;
 
-&lt;h2 id=&#34;won-t-somebody-think-of-the-children:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Won&amp;rsquo;t Somebody Think Of The Children?&lt;/h2&gt;
+&lt;h2 id=&#34;won-t-somebody-think-of-the-children&#34;&gt;Won&amp;rsquo;t Somebody Think Of The Children?&lt;/h2&gt;
 
 &lt;p&gt;A little thought project for you.  If you assume 75% (I bet it&amp;rsquo;s more) of all website running Wordpress are nothing more than what you&amp;rsquo;d typically call Brochure-ware then how much server processing is being wasted on making these sites available?  How many extra servers does that add up to? The electricity?  It&amp;rsquo;s quite scary really when you start to think about it.&lt;/p&gt;
 
-&lt;h1 id=&#34;my-solution:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;My Solution&lt;/h1&gt;
+&lt;h1 id=&#34;my-solution&#34;&gt;My Solution&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;m going back to a static HTML/CSS website for several reasons:&lt;/p&gt;
 
@@ -724,7 +450,7 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
 &lt;li&gt;I can keep track of edits and versions with git, something I use every day, no 3rd party Wordpress plugin required - that might stop working!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;not-completely-technology-free:dc93f9785f2e405da0968d9dd6317f3b&#34;&gt;Not Completely Technology Free&lt;/h2&gt;
+&lt;h2 id=&#34;not-completely-technology-free&#34;&gt;Not Completely Technology Free&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m not going back to the dark ages completely, I am using a static site generator that supports themes etc. to help me generate the content on my laptop.  I am using 
 
@@ -752,13 +478,13 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
     
     <item>
       <title>Vallerret Photography Gloves - Initial Thoughts</title>
-      <link>http://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</link>
+      <link>https://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</guid>
+      <guid>https://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</guid>
       <description>
 
-&lt;h1 id=&#34;vallerret-photography-gloves:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Vallerret Photography Gloves&lt;/h1&gt;
+&lt;h1 id=&#34;vallerret-photography-gloves&#34;&gt;Vallerret Photography Gloves&lt;/h1&gt;
 
 &lt;p&gt;
 
@@ -769,10 +495,8 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
         
         
         
-        
     
 
-    
     
     
     
@@ -793,7 +517,7 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
 
     
         &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/20160327-5399.jpg&#34; alt=&#34;Vallerret Photography Gloves&#34; class=&#34;&#34; /&gt;
+            &lt;img src=&#34;https://karlaustin.com/img/2016/03/20160327-5399.jpg&#34; alt=&#34;Vallerret Photography Gloves&#34; /&gt;
         &lt;/span&gt;
     
 
@@ -812,303 +536,49 @@ I first came across the Vallerret Photography Gloves on
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;presentation:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Presentation&lt;/h2&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
 
 &lt;p&gt;Unfortunately initial impressions are a bit poor.  They&amp;rsquo;ve obviously tried to present them nicely whilst keeping the budget down but they&amp;rsquo;ve been let down by their packaging supplier.  The Vallerret logo and writing have been embossed on to the cardboard sleeve, but the overprint has missed by a large margin so it all looks very odd and amateur.   The sleeve itself is supposed to be rectangular, but again they&amp;rsquo;ve been let down as it hasn&amp;rsquo;t been folded up in to shape so it&amp;rsquo;s half flat, half popped up on one side.  The die cut logo on the front is also tatty, it looks like the die cutter has been over-used, leading to an unclean cut.&lt;/p&gt;
 
 
 
 
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    &lt;div class=&#34;box alt&#34;&gt;
-        &lt;div class=&#34;row uniform&#34;&gt;
-        
-        
-        
-            
-                &lt;div class=&#34;6u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160326-5376.jpg&#39;
-                            alt=&#34;Overall packaging&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u$&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160326-5378.jpg&#39;
-                            alt=&#34;Packaging end view&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160327-5396.jpg&#39;
-                            alt=&#34;Scruffy die cut logo&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u$&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160327-5398.jpg&#39;
-                            alt=&#34;Missed over print on embossing and glue leak&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-        &lt;/div&gt;
-    &lt;/div&gt;
-
 
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;the-gloves:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;The Gloves&lt;/h2&gt;
+&lt;h2 id=&#34;the-gloves&#34;&gt;The Gloves&lt;/h2&gt;
 
 &lt;p&gt;The gloves themselves are in a simple plastic bag, and separated with a piece of tissue paper to stop them sticking together, more of which later.&lt;/p&gt;
 
 
 
 
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    &lt;div class=&#34;box alt&#34;&gt;
-        &lt;div class=&#34;row uniform&#34;&gt;
-        
-        
-        
-            
-                &lt;div class=&#34;6u&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160326-5379.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-            
-                &lt;div class=&#34;6u$&#34;&gt;
-            
-            
-        
-            
-                
-                    
-                    &lt;span class=&#34;image fit&#34;&gt;
-                
-            
-            
-        
-            
-                
-                        &lt;img src=&#39;http://karlaustin.com/img/2016/03/20160326-5382.jpg&#39;
-                            alt=&#34;&#34; /&gt;
-                    &lt;/span&gt;&lt;/div&gt;
-                
-                
-            
-            
-        
-        &lt;/div&gt;
-    &lt;/div&gt;
-
 
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;fit:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Fit&lt;/h3&gt;
+&lt;h3 id=&#34;fit&#34;&gt;Fit&lt;/h3&gt;
 
 &lt;p&gt;
 
-
-    
-    
-        
-        
-        
-        
-        
-    
-
-    
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/20160326-5387.jpg&#34; alt=&#34;Baggy thumb&#34; class=&#34;small&#34; /&gt;
-        &lt;/span&gt;
-    
 
 
 I ordered a medium size based on the sizing guidelines given in the Kickstarter survey, they are&amp;rsquo;t quite a perfect fit, as you can see below the thumb is quite long which results in it flopping over when trying to press any buttons on the camera.  I can get it to fit perfectly, but after 3 or 4 movements it&amp;rsquo;s back to where it naturally starts, with the joint raising away from my hand.  The other fingers all sit pretty much perfect although between the fingers, especially around the index finger they pull down quite hard which can be a little uncomfortable.  I don&amp;rsquo;t think I&amp;rsquo;d have wanted a large size as I think they would have been too baggy everywhere else, but without having a pair to try I can&amp;rsquo;t say for sure.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;flipping-fingers:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Flipping Fingers&lt;/h3&gt;
+&lt;h3 id=&#34;flipping-fingers&#34;&gt;Flipping Fingers&lt;/h3&gt;
 
 &lt;p&gt;
 
-
-    
-    
-        
-        
-        
-        
-        
-    
-
-    
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image left&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/20160326-5384.jpg&#34; alt=&#34;Baggy thumb&#34; class=&#34;small&#34; /&gt;
-        &lt;/span&gt;
-    
 
 
 There also appears to be another small problem, the forefinger and thumb have flip over finger ends, so if you need you can get better control over your camera.  The forefinger closes up perfectly, you&amp;rsquo;d not know it was there, the thumb however doesn&amp;rsquo;t, gloves on or off it won&amp;rsquo;t stay closed up on either hand.  I don&amp;rsquo;t know if this is a manufacturing fault or just how they&amp;rsquo;ve been designed, so I&amp;rsquo;ll be contacting Vallerret to ask about it as the idea is that these should keep your fingers completely covered and warm when needed.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;useful-features:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Useful Features&lt;/h3&gt;
+&lt;h3 id=&#34;useful-features&#34;&gt;Useful Features&lt;/h3&gt;
 
 &lt;p&gt;Both gloves feature a small zip up compartment on the back of the hand near to the wrist opening which you could fit a couple of CF cards in, or quite a few SD cards.&lt;/p&gt;
 
@@ -1118,7 +588,7 @@ There also appears to be another small problem, the forefinger and thumb have fl
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;shooting:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Shooting&lt;/h2&gt;
+&lt;h2 id=&#34;shooting&#34;&gt;Shooting&lt;/h2&gt;
 
 &lt;p&gt;It&amp;rsquo;s a bit &amp;ldquo;nippy&amp;rdquo; in the wind today and they&amp;rsquo;ve kept my hands warm and toasty.  I think they key to them is that you&amp;rsquo;ve got to be generating a bit of warmth yourself, so I am not sure they&amp;rsquo;ll be much good for anyone sat around in a bird hide for hours.&lt;/p&gt;
 
@@ -1126,7 +596,7 @@ There also appears to be another small problem, the forefinger and thumb have fl
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;final-thoughts:3422fdd6a49a7411e61daea63ffd03e5&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
 
 &lt;p&gt;They feel warm, and with the exception of the floppy thumb my 5d3 and 7d2 are easy enough to operate without the finger/thumb flipped back which is good. The final proof will be in the shooting when the cold weather comes back round again, I&amp;rsquo;m hopefully they&amp;rsquo;ll make autumn location shoots much more comfortable.&lt;/p&gt;
 

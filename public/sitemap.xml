@@ -2,44 +2,268 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://karlaustin.com/</loc>
+    <loc>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/printer-sample-packs-and-fail/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</loc>
+    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/facebook-claiming-a-page/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/cp1con-edinburgh/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/a-self-portrait/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/social-media-page-templates/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/wordpress-youre-fired/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/bgp/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/business/</loc>
     <lastmod>2016-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://karlaustin.com/post/printer-sample-packs-and-fail/</loc>
+    <loc>https://karlaustin.com/categories/business/</loc>
     <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</loc>
-    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+    <loc>https://karlaustin.com/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://karlaustin.com/post/facebook-claiming-a-page/</loc>
-    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://karlaustin.com/post/a-self-portrait/</loc>
-    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://karlaustin.com/post/social-media-page-templates/</loc>
-    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://karlaustin.com/post/wordpress-youre-fired/</loc>
-    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</loc>
+    <loc>https://karlaustin.com/tags/clothing/</loc>
     <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/cms/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/cpanel/</loc>
+    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/development/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/facebook/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/fail/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/gloves/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/google&#43;/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/internet/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/categories/internet/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/kickstarter/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/linkedin/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/linx/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/me/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/peering/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/photography/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/categories/photography/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/photos/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/post/</loc>
+    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/printing/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/review/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/security/</loc>
+    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/self-portrait/</loc>
+    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/software/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/travel/</loc>
+    <lastmod>2016-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/twitter/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/vallerret/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/website/</loc>
+    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/categories/websites/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/wordpress/</loc>
+    <lastmod>2016-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/youtube/</loc>
+    <lastmod>2016-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

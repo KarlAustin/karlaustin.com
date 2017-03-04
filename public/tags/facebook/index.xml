@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facebook on Me &amp; Life</title>
-    <link>http://karlaustin.com/tags/facebook/</link>
+    <link>https://karlaustin.com/tags/facebook/index.xml</link>
     <description>Recent content in Facebook on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 16 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://karlaustin.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://karlaustin.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Claiming a Facebook Page - Nightmare!</title>
-      <link>http://karlaustin.com/post/facebook-claiming-a-page/</link>
+      <link>https://karlaustin.com/post/facebook-claiming-a-page/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/facebook-claiming-a-page/</guid>
+      <guid>https://karlaustin.com/post/facebook-claiming-a-page/</guid>
       <description>
 
-&lt;h1 id=&#34;what-a-pita:b7f47509e66c6c65a88ac76589690692&#34;&gt;What a PITA&lt;/h1&gt;
+&lt;h1 id=&#34;what-a-pita&#34;&gt;What a PITA&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;m the technical admin of the 
 
@@ -29,7 +28,7 @@
 
  Facebook page.  Every now and then someone will create a new Facebook Location for the centre and when we spot them, we merge them in to the main page, pretty standard stuff.&lt;/p&gt;
 
-&lt;h2 id=&#34;don-t-make-it-easy-will-you:b7f47509e66c6c65a88ac76589690692&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h2&gt;
+&lt;h2 id=&#34;don-t-make-it-easy-will-you&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h2&gt;
 
 &lt;p&gt;Facebook don&amp;rsquo;t make it easy, this time it has been a right pain.  I tried to merge the location in with the official page, unfortunately the official page wasn&amp;rsquo;t listed int he drop down of pages I could merge it with.&lt;/p&gt;
 
@@ -39,13 +38,13 @@
 
 &lt;p&gt;Facebook do say that the pages need to have similar names (they have exactly the same name) and be of the same type.  Now trying to work out how to get the official page to say just &amp;ldquo;Community Centre&amp;rdquo; is what was fun, it took 30 minutes of experimenting to work that one out, trying different combinations of types and sub-categories. Why I can&amp;rsquo;t just type in &amp;ldquo;Community Centre&amp;rdquo; and it suggest the appropriate options I will never know.&lt;/p&gt;
 
-&lt;h2 id=&#34;arghhhhh:b7f47509e66c6c65a88ac76589690692&#34;&gt;Arghhhhh&lt;/h2&gt;
+&lt;h2 id=&#34;arghhhhh&#34;&gt;Arghhhhh&lt;/h2&gt;
 
 &lt;p&gt;Now we have everything matching, the name, the type of organisation and yet it &lt;strong&gt;still&lt;/strong&gt; won&amp;rsquo;t list the official page in the drop down for me to merge it with.&lt;/p&gt;
 
 &lt;p&gt;How a company with so many developers and experts in their field can make such a user hostile system I will never know. It should not be this difficult.&lt;/p&gt;
 
-&lt;h1 id=&#34;final-hope:b7f47509e66c6c65a88ac76589690692&#34;&gt;Final Hope&lt;/h1&gt;
+&lt;h1 id=&#34;final-hope&#34;&gt;Final Hope&lt;/h1&gt;
 
 &lt;p&gt;My final hope is that having added an organisation email address and submitted a claim for admin rights on the page, that I will be able to merge it in with the official page.  &lt;em&gt;Fingers crossed&lt;/em&gt;.&lt;/p&gt;
 </description>
@@ -53,10 +52,10 @@
     
     <item>
       <title>Social Media Page Templates</title>
-      <link>http://karlaustin.com/post/social-media-page-templates/</link>
+      <link>https://karlaustin.com/post/social-media-page-templates/</link>
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://karlaustin.com/post/social-media-page-templates/</guid>
+      <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
       <description>&lt;p&gt;
 
 
@@ -66,10 +65,8 @@
         
         
         
-        
     
 
-    
     
     
     
@@ -90,7 +87,7 @@
 
     
         &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;http://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; class=&#34;&#34; /&gt;
+            &lt;img src=&#34;https://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; /&gt;
         &lt;/span&gt;
     
 

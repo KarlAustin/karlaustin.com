@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linx on Me &amp; Life</title>
+    <link>https://karlaustin.com/tags/linx/index.xml</link>
+    <description>Recent content in Linx on Me &amp; Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://karlaustin.com/tags/linx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Peertools: Automated notification of unsolicited BGP Open requests at peering points</title>
+      <link>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</link>
+      <pubDate>Sat, 04 Mar 2017 18:41:30 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-problem&#34;&gt;The Problem&lt;/h1&gt;
+
+&lt;p&gt;When you connect to an internet peering exchange, the IP addresses you&amp;rsquo;re given for your interfaces will most likely have been used by someone else prior to you, that has left the exchange.&lt;/p&gt;
+
+&lt;p&gt;This means, because we&amp;rsquo;re not all good at housekeeping, that you&amp;rsquo;ll end up with ISPs trying to open up BGP sessions with your routers and if you&amp;rsquo;re not firewalling them out then you&amp;rsquo;ll end up with a lot of messages about BGP Opens being received from unconfigured neighbours.  If you&amp;rsquo;re firewalling (and you should be) and you&amp;rsquo;re logging you&amp;rsquo;ll end up with a lot of hits logged against port 179.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-solution&#34;&gt;The Solution&lt;/h1&gt;
+
+&lt;p&gt;Ideally you&amp;rsquo;d like everyone to keep their peering neat and tidy, but we&amp;rsquo;re not in an ideal world unfortunately.  So I came up with a tool that will:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scan your message log for BGP opens from unconfigured neighbours&lt;/li&gt;
+&lt;li&gt;Scan your message log for TCP with unexpected MD5&lt;/li&gt;
+&lt;li&gt;Scan your firewall log for connections to port 179 that have been dropped&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This catches most instances and you end up with a list of IP address, the system then:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Looks at the peering point data to see what ASN the IP address is assigned to&lt;/li&gt;
+&lt;li&gt;Checks PeeringDB for a peering contact for the ASN&lt;/li&gt;
+&lt;li&gt;Emails the peering contact based on the email template, which by default shows the peering LAN and IP addresses trying to open sessions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-it-supports-right-now&#34;&gt;What It Supports Right Now&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JunOS 12.x - It may work with other versions of JunOS, but that&amp;rsquo;s what it has been tested with.&lt;/li&gt;
+&lt;li&gt;SSH - Key based SSH for connecting to JunOS&lt;/li&gt;
+&lt;li&gt;LINX - Currently it is hard coded to work with LINX, The London Internet Exchange.&lt;/li&gt;
+&lt;li&gt;PeeringDB - Only PeeringDB is supported at the moment for fetching an AS numbers peering contacts&lt;/li&gt;
+&lt;li&gt;Email - Email is the current form of contact&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-it-can-support-right-now-if-you-want-to-write-a-module&#34;&gt;What It Can Support Right Now If You Want To Write a Module?&lt;/h1&gt;
+
+&lt;p&gt;The router code is modularised and self contained, so any router or switch can be supported.&lt;/p&gt;
+
+&lt;p&gt;The router class includes what commands to execute to fetch and parse the data in to an IP address.  Additional commands are added in to an array.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-future&#34;&gt;The Future&lt;/h1&gt;
+
+&lt;p&gt;The aim is to make a simple suite of tools for small ISPs without their own staff to better manage their peering relationships.  The next evolution will hopefully add tracking support, so it will log when you last emailed a given peer and allow you to set a time period for them to respond before it emails again.&lt;/p&gt;
+
+&lt;h1 id=&#34;where-can-i-find-it&#34;&gt;Where Can I Find It?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/KarlAustin/peertools&#34;&gt;https://github.com/KarlAustin/peertools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The code is currently still a little rough in places, as it was quickly built to deal with the 30 or so IPs hitting our peering routers every few seconds.  So far we&amp;rsquo;ve had a couple of ISPs stop and several agree to peer with us.  Please feel to contribute or comment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
