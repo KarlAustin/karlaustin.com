@@ -1,4 +1,4 @@
-baseurl = "http://karlaustin.com/"
+baseurl = "https://karlaustin.com/"
 languageCode = "en-gb"
 title = "Me & Life"
 theme = "hugo-future-imperfect"
