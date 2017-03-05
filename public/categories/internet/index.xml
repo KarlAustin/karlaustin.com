@@ -9,6 +9,143 @@
     <atom:link href="https://karlaustin.com/categories/internet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ipv6 at home it should not be this hard</title>
+      <link>https://karlaustin.com/post/ipv6-at-home-it-should-not-be-this-hard/</link>
+      <pubDate>Sun, 05 Mar 2017 09:50:46 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/ipv6-at-home-it-should-not-be-this-hard/</guid>
+      <description>
+
+&lt;h1 id=&#34;5ghz-here-we-come&#34;&gt;5Ghz Here We Come&lt;/h1&gt;
+
+&lt;p&gt;A few months ago I changed my home router from a Mikrotik RB2011 router to a Linksys WRT1900ACSv2 - Not a particularly cheap router, it&amp;rsquo;s still &amp;pound; even now.  I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS.  I&amp;rsquo;ve got Gigabit wired to most rooms, but I just can&amp;rsquo;t be bothered to find a cable most of the time to hook up to - I don&amp;rsquo;t usually have one long enough at home, work tends to stay at work these days.&lt;/p&gt;
+
+&lt;h1 id=&#34;how-hard-can-it-be-to-get-ipv6-working&#34;&gt;How Hard Can It Be To Get IPv6 Working?&lt;/h1&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t really like the Linksys interface, so I did what any self respecting IT geek does, I put DD-WRT firmware on it straight away, which it turns out was a mistake.  It has very poor support for IPv6 out of the box, as in virtually non-existent if you just want to put a few details in to the interface and have it work.&lt;/p&gt;
+
+&lt;p&gt;After a couple of hours of googling and faffing I&amp;rsquo;d had enough and went back to the stock Linksys firmware to see what the IPv6 support in that was like, after all it does claim to support IPv6.&lt;/p&gt;
+
+&lt;h1 id=&#34;liar-liar-pants-on-fire&#34;&gt;Liar Liar, Pants On Fire&lt;/h1&gt;
+
+&lt;p&gt;Whilst it&amp;rsquo;s true that the WRT1900ACSv2 does support IPv6, it&amp;rsquo;s a bodge.  The only thing it supports is 6rd, which is tunneling mechanism and not native IPv6.  Tunneling is a bodge at the end of the day and high end routers shouldn&amp;rsquo;t just be limiting you to a bodge, they should have proper native IPv6 dual-stack support.  There&amp;rsquo;s no excuse these days. None.&lt;/p&gt;
+
+&lt;h1 id=&#34;openwrt-come-on-down&#34;&gt;OpenWRT, Come On Down&lt;/h1&gt;
+
+&lt;p&gt;After a few minutes ranting at Linksys I switched over to OpenWRT, what a revelation compared to DD-WRT.  The web interface, Luci, was virtually instant with anything asked of it and had proper IPv6 support built right in there; that&amp;rsquo;s not to say I didn&amp;rsquo;t have problems though.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m on an FTTC connection from &lt;a href=&#34;http://goscomb.net&#34;&gt;Goscomb&lt;/a&gt; and for v6 I have a /48 subnet assigned to me - unfortunately this doesn&amp;rsquo;t get pushed to the router by Router Advertisement (RA) or DHCPv6, only the /64 linknet.  Getting the /48 on to the router wasn&amp;rsquo;t an issue, a quick bit of googling gave me the simple and Ubuntu style config file format for the network, within 10 minutes of flashing the router I&amp;rsquo;d got IPv6 addresses out to the clients.  That&amp;rsquo;s when the fun began.&lt;/p&gt;
+
+&lt;h1 id=&#34;no-ipv6-connectivity&#34;&gt;No IPv6 Connectivity&lt;/h1&gt;
+
+&lt;p&gt;Once the clients had got an IPv6 address, they couldn&amp;rsquo;t actually get to anything out on the net.  That&amp;rsquo;s when a couple of hours of fiddling around started, I could either:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have IPv6 addresses on the clients&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have the router connect out via IPv6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;but not both.  After a while I did get both happening, but still no IPv6 from clients to the net.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-solution&#34;&gt;The Solution&lt;/h1&gt;
+
+&lt;p&gt;It turns out the default route that was being configured to send IPv6 from the router, to the other end (Goscomb) of the Link-Local v6 subnet wasn&amp;rsquo;t actually doing it&amp;rsquo;s job and I had to manually configure an IPv6 default route to just aim all v6 traffic at the wan interface.  A very simple thing to do, but one that still took too long to find and work out late at night.&lt;/p&gt;
+
+&lt;h1 id=&#34;my-config-redacted&#34;&gt;My Config (Redacted)&lt;/h1&gt;
+
+&lt;p&gt;/etc/config/network&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;config interface &#39;loopback&#39;
+        option ifname &#39;lo&#39;
+        option proto &#39;static&#39;
+        option ipaddr &#39;127.0.0.1&#39;
+        option netmask &#39;255.0.0.0&#39;
+
+config interface &#39;lan&#39;
+        option ifname &#39;eth1&#39;
+        option force_link &#39;1&#39;
+        option type &#39;bridge&#39;
+        option proto &#39;static&#39;
+        option ipaddr &#39;192.168.X.1&#39;
+        option netmask &#39;255.255.255.0&#39;
+        option ip6assign &#39;60&#39;
+        option ip6hint &#39;1&#39;
+
+config interface &#39;wan&#39;
+        option ifname &#39;eth0&#39;
+        option _orig_ifname &#39;eth0&#39;
+        option _orig_bridge &#39;false&#39;
+        option proto &#39;pppoe&#39;
+        option username &#39;user@example.org&#39;
+        option password &#39;APasswordHere&#39;
+
+config interface &#39;wan6&#39;
+        option ifname &#39;@wan&#39;
+        option proto &#39;dhcpv6&#39;
+        option reqaddress &#39;try&#39;
+        option reqprefix &#39;no&#39;
+        option defaultroute &#39;0&#39;
+        option ip6prefix &#39;2a01:X:Y::/48&#39;
+
+config &#39;route6&#39;
+        option interface &#39;wan&#39;
+        option target &#39;::/0&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;/etc/config/dhcp&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;config dnsmasq
+        option domainneeded &#39;1&#39;
+        option boguspriv &#39;1&#39;
+        option filterwin2k &#39;0&#39;
+        option localise_queries &#39;1&#39;
+        option rebind_protection &#39;1&#39;
+        option rebind_localhost &#39;1&#39;
+        option local &#39;/lan/&#39;
+        option domain &#39;lan&#39;
+        option expandhosts &#39;1&#39;
+        option nonegcache &#39;0&#39;
+        option authoritative &#39;1&#39;
+        option readethers &#39;1&#39;
+        option leasefile &#39;/tmp/dhcp.leases&#39;
+        option resolvfile &#39;/tmp/resolv.conf.auto&#39;
+        option localservice &#39;1&#39;
+
+config dhcp &#39;lan&#39;
+        option interface &#39;lan&#39;
+        option start &#39;100&#39;
+        option limit &#39;150&#39;
+        option leasetime &#39;48h&#39;
+        option ra_maxinterval &#39;30&#39;
+        option ra &#39;server&#39;
+        option dhcpv6 &#39;server&#39;
+        option ra_default &#39;1&#39;
+        option ra_management &#39;1&#39;
+
+config dhcp &#39;wan&#39;
+        option interface &#39;wan&#39;
+        option ignore &#39;1&#39;
+
+config odhcpd &#39;odhcpd&#39;
+        option maindhcp &#39;1&#39;
+        option leasefile &#39;/tmp/hosts/odhcpd&#39;
+        option leasetrigger &#39;/usr/sbin/odhcpd-update&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;this-is-my-day-job-it-shouldn-t-be-this-hard&#34;&gt;This Is My Day Job - It Shouldn&amp;rsquo;t Be This Hard!&lt;/h1&gt;
+
+&lt;p&gt;Bearing in mind this is my day job and I work with routers that are insanely complex compared to your average home router and cost well in to 5 figures at the low end, it just shouldn&amp;rsquo;t be this difficult.  I get that most people use a router from their ISP so that all of this is hidden from them, bt there are still an awful lot of people who don&amp;rsquo;t because their ISP doesn&amp;rsquo;t provide one, or the one it does provide is awful.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s 2017, IPv6 was drafted in 1996, it&amp;rsquo;s 21 years old.  In that time it&amp;rsquo;s been tweaked a bit along the way, but there&amp;rsquo;s really no excuse for any home router to not have it, other than saving a few pence on a bill of materials and that&amp;rsquo;s just irresponsible to their users and the internet as a whole.  Without widespread IPv6 adoption for end users we end up with nasty solutions such as CG-NAT, when NAT should have been put out of its misery years ago, not adding more layers of complexity to it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Peertools: Automated notification of unsolicited BGP Open requests at peering points</title>
       <link>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</link>
       <pubDate>Sat, 04 Mar 2017 18:41:30 +0000</pubDate>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://karlaustin.com/post/ipv6-at-home-it-should-not-be-this-hard/</loc>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</loc>
     <lastmod>2017-03-04T18:41:30+00:00</lastmod>
   </url>
@@ -114,13 +119,19 @@
   
   <url>
     <loc>https://karlaustin.com/tags/internet/</loc>
-    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://karlaustin.com/categories/internet/</loc>
-    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/ipv6/</loc>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,7 +161,13 @@
   
   <url>
     <loc>https://karlaustin.com/</loc>
-    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/networking/</loc>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,7 +197,7 @@
   
   <url>
     <loc>https://karlaustin.com/post/</loc>
-    <lastmod>2017-03-04T18:41:30+00:00</lastmod>
+    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
