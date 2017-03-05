@@ -2,7 +2,7 @@
 description = "IPv6 is 21 years old this year, it shouldn't be this hard to set it up at home."
 categories = ["Internet"]
 date = "2017-03-05T09:50:46Z"
-title = "ipv6 at home it should not be this hard"
+title = "IPv6 at Home - It Should Not Be This Hard"
 tags = ["internet","ipv6","networking"]
 +++
 
