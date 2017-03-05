@@ -8,7 +8,7 @@ tags = ["internet","ipv6","networking"]
 
 # 5Ghz Here We Come
 
-A few months ago I changed my home router from a Mikrotik RB2011 router to a Linksys WRT1900ACSv2 - Not a particularly cheap router, it's still &pound; even now.  I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS.  I've got Gigabit wired to most rooms, but I just can't be bothered to find a cable most of the time to hook up to - I don't usually have one long enough at home, work tends to stay at work these days.
+A few months ago I changed my home router from a [Mikrotik RB2011](https://www.amazon.co.uk/gp/product/B00I4QFQDI/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00I4QFQDI&linkCode=as2&tag=karlaustincom-21) router to a [Linksys WRT1900ACSv2](https://www.amazon.co.uk/gp/product/B01562PSIU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01562PSIU&linkCode=as2&tag=karlaustincom-21) - Not a particularly cheap router, it's still &pound; even now.  I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS.  I've got Gigabit wired to most rooms, but I just can't be bothered to find a cable most of the time to hook up to - I don't usually have one long enough at home, work tends to stay at work these days.
 
 # How Hard Can It Be To Get IPv6 Working?
 
