@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/karlaustin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://karlaustin.com
+  * I am karlaustin (https://keybase.io/karlaustin) on keybase.
+  * I have a public key with fingerprint E7D9 D935 B786 269B 0FD2  B981 BA81 C331 CE4F C830
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010162bd26fc4212f4285e48ee48fbcf678642e6d4c03d328b16d8a66fa3e206a1450a",
+            "fingerprint": "e7d9d935b786269b0fd2b981ba81c331ce4fc830",
+            "host": "keybase.io",
+            "key_id": "ba81c331ce4fc830",
+            "kid": "010162bd26fc4212f4285e48ee48fbcf678642e6d4c03d328b16d8a66fa3e206a1450a",
+            "uid": "4847bdb24d9a5380e1bda3090f747b19",
+            "username": "karlaustin"
+        },
+        "service": {
+            "hostname": "karlaustin.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494022483,
+    "expire_in": 157680000,
+    "prev": "d88347599c423c6ce2aa1d2ef6055f4ee97eeb1573876721c6adc20e362a61d5",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPmZanQrtRqVhtVEgmO3O7M7OnuwmhIpF0oUulqeZnVld0t3T2dUU
+s9CELoQVVBZWWmFRvhREdCGyCEoOREXZQ0KQPXR5KAoiU6hZqad6bGAY/v//vm++
+/+c/PD45FE7qWTrp3YIxPeeTEu9paOO4gbJ6ibqsTorUS9v48MMrGff86DabSRFJ
+VmQFAcoAskwVKMBSAda4irm4FjUtpGOkAo6YasqQQYCpghgmCFkEciAjoqiaTKQc
+ybKdch6PxW3HF7JcZwYzoEYFHSCDyhYD1MAKJVgxIVRMrlomhrIgVrhewBDmKPF4
+ru2KnAiiw/b+gf/PvquH5VSs6pRRoDKDaBDLXKGMQNmQLV0UFCMAejzukCoeeCXx
+SlLt+bYjNeRIIl9jmzwYbdDLX5hc060S/Fjc9V3TrRS1Ct+PeZGA69fFAvAOTqO/
+ZaLUdpiYpWDU8Lhnu44UUQTS9O1AV1ENVQZAxTBH4rUxO86jdoDQdIRlcYJ/eI2Q
+ZBhvhqquGYaYDzSRyQEhCgPcQrKmWSrnhs45FUSIdaQDxUSEmUDmEAGCFKZJQWfb
+HVeKaMInKReanl3uEL86zqWG8P6kGSNDSeFQasqIYMtC4THpf1ZvSBv1szav8cm5
+N49XJZZd5yu9nNoVRbder216sah14bfMC20DpGrrh7vJVX17Fr86Uzi1CyYeDPYY
+1dOz2wG1j+zVQf7jlsH0kraCl/2f5rZUbL10O3/WK2lfUaj1VMW665ntz4tHP6yf
+V9JU3DzVP50nhw87GbuepcHZDRtu5jdfK/IH2zdd/D7tYHbGnKsnjz7InN/5o9A9
+09UxOa33S1r/+wNv3bKZ1ufGzsV9X3sTBeEtpS9Kn+LdeivIbyu70nFWz7p0fsrV
+C/e6P72bOG7j6jWf/a4TDet2Xm45HkoZPfT2yiqY4mc9Khj7pH7Wkjv8Rnf2+vGx
+Q33L1OWxDxPuH8Opnb0f1/8C
+=obYG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/karlaustin
+
+==================================================================
