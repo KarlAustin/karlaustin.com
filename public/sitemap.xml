@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://karlaustin.com/post/negotiating-with-a-threenager/</loc>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://karlaustin.com/post/ipv6-at-home-it-should-not-be-this-hard/</loc>
     <lastmod>2017-03-05T09:50:46+00:00</lastmod>
   </url>
@@ -106,6 +111,12 @@
   </url>
   
   <url>
+    <loc>https://karlaustin.com/tags/family/</loc>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://karlaustin.com/tags/gloves/</loc>
     <lastmod>2016-03-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -142,6 +153,18 @@
   </url>
   
   <url>
+    <loc>https://karlaustin.com/tags/life/</loc>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/categories/life/</loc>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://karlaustin.com/tags/linkedin/</loc>
     <lastmod>2016-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -161,7 +184,7 @@
   
   <url>
     <loc>https://karlaustin.com/</loc>
-    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,7 +220,7 @@
   
   <url>
     <loc>https://karlaustin.com/post/</loc>
-    <lastmod>2017-03-05T09:50:46+00:00</lastmod>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,6 +256,12 @@
   
   <url>
     <loc>https://karlaustin.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlaustin.com/tags/tantrums/</loc>
+    <lastmod>2017-03-11T19:55:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
