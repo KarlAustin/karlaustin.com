@@ -271,15 +271,15 @@ ga('send', 'pageview');
 
 <h1 id="the-i40e-showstopper">The i40e Showstopper</h1>
 
-<p>If you want to use Intel i40e NICs, which at this moment in time means Intel X710 and XL710 for your vMX and you&rsquo;re running CentOS then you&rsquo;re going to hit an issue with everything up to vMX 17.4 (and possibly higher).
-<pre>
-Check I40E drivers&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..
-[Command] cd /usr/local/vmx/live/drivers/i40e-1.3.46/src</p>
+<p>If you want to use Intel i40e NICs, which at this moment in time means Intel X710 and XL710 for your vMX and you&rsquo;re running CentOS then you&rsquo;re going to hit an issue with everything up to vMX 17.4 (and possibly higher).</p>
 
-<p>[Command] rm -f i40e.ko</p>
+<pre><code>Check I40E drivers................................
+[Command] cd /usr/local/vmx/live/drivers/i40e-1.3.46/src
 
-<p>[Command] make install
-make[1]: Entering directory <code>/usr/src/kernels/3.10.0-327.el7.x86_64'
+[Command] rm -f i40e.ko
+
+[Command] make install
+make[1]: Entering directory `/usr/src/kernels/3.10.0-327.el7.x86_64'
 CC [M]  /usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e/i40e_main.o
 /usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e/i40e_main.c: In function ‘i40e_ndo_bridge_getlink’:
 /usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e/i40e_main.c:9086:2: error: too few arguments to function ‘ndo_dflt_bridge_getlink’
@@ -299,11 +299,12 @@ extern int ndo_dflt_bridge_getlink(struct sk_buff *skb, u32 pid, u32 seq,
 ^
 make[2]: *** [/usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e/i40e_main.o] Error 1
 make[1]: *** [_module_/usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e] Error 2
-make[1]: Leaving directory</code>/usr/src/kernels/3.10.0-327.el7.x86_64&rsquo;
+make[1]: Leaving directory `/usr/src/kernels/3.10.0-327.el7.x86_64'
 make: *** [i40e/i40e.ko] Error 2
 [Failed]
-</pre>
-The first thing you might think to do is go and fetch the i40e drivers from the Intel site - <strong>don&rsquo;t</strong> do that, your router won&rsquo;t work properly.  The i40e drivers are modified by Juniper, hence why they ship their own with vMX.</p>
+</code></pre>
+
+<p>The first thing you might think to do is go and fetch the i40e drivers from the Intel site - <strong>don&rsquo;t</strong> do that, your router won&rsquo;t work properly.  The i40e drivers are modified by Juniper, hence why they ship their own with vMX.</p>
 
 <h1 id="the-solution">The Solution</h1>
 

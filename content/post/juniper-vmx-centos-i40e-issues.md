@@ -15,7 +15,7 @@ What I don't like is the rather sketchy documentation that gives the impression 
 
 # The i40e Showstopper
 If you want to use Intel i40e NICs, which at this moment in time means Intel X710 and XL710 for your vMX and you're running CentOS then you're going to hit an issue with everything up to vMX 17.4 (and possibly higher).
-<pre>
+```
 Check I40E drivers................................
 [Command] cd /usr/local/vmx/live/drivers/i40e-1.3.46/src
 
@@ -45,7 +45,8 @@ make[1]: *** [_module_/usr/local/vmx/live/drivers/i40e-1.3.46/src/i40e] Error 2
 make[1]: Leaving directory `/usr/src/kernels/3.10.0-327.el7.x86_64'
 make: *** [i40e/i40e.ko] Error 2
 [Failed]
-</pre>
+```
+
 The first thing you might think to do is go and fetch the i40e drivers from the Intel site - **don't** do that, your router won't work properly.  The i40e drivers are modified by Juniper, hence why they ship their own with vMX.
 
 # The Solution
