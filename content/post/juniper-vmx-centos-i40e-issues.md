@@ -53,13 +53,13 @@ The first thing you might think to do is go and fetch the i40e drivers from the 
 Fortunately the solution is pretty trivial, annoyingly so.
 
 Open up:
-<pre>drivers/i40e-1.3.46/src/i40e/kcompat.h</pre>
+`drivers/i40e-1.3.46/src/i40e/kcompat.h<`
 
 Search for:
-<pre>#define NDO_DFLT_BRIDGE_GETLINK_HAS_BRFLAGS</pre>
+`#define NDO_DFLT_BRIDGE_GETLINK_HAS_BRFLAGS`
 
 Add the following on the line after:
-<pre>#define NDO_BRIDGE_GETLINK_HAS_FILTER_MASK_PARAM</pre>
+`#define NDO_BRIDGE_GETLINK_HAS_FILTER_MASK_PARAM`
 
 Re-run your install and it should happily compile the i40e drivers for you.
 

@@ -400,13 +400,13 @@ make: *** [i40e/i40e.ko] Error 2
 <p>Fortunately the solution is pretty trivial, annoyingly so.</p>
 
 <p>Open up:
-<pre>drivers/i40e-1.3.46/src/i40e/kcompat.h</pre></p>
+<code>drivers/i40e-1.3.46/src/i40e/kcompat.h&lt;</code></p>
 
 <p>Search for:
-<pre>#define NDO_DFLT_BRIDGE_GETLINK_HAS_BRFLAGS</pre></p>
+<code>#define NDO_DFLT_BRIDGE_GETLINK_HAS_BRFLAGS</code></p>
 
 <p>Add the following on the line after:
-<pre>#define NDO_BRIDGE_GETLINK_HAS_FILTER_MASK_PARAM</pre></p>
+<code>#define NDO_BRIDGE_GETLINK_HAS_FILTER_MASK_PARAM</code></p>
 
 <p>Re-run your install and it should happily compile the i40e drivers for you.</p>
 
