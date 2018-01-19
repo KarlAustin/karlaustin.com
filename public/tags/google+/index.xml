@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google&#43; on Me &amp; Life</title>
-    <link>https://karlaustin.com/tags/google&#43;/index.xml</link>
+    <link>https://karlaustin.com/tags/google&#43;/</link>
     <description>Recent content in Google&#43; on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://karlaustin.com/tags/google&#43;/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://karlaustin.com/tags/google+/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Social Media Page Templates</title>
@@ -14,66 +17,8 @@
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
-      <description>&lt;p&gt;
-
-
-    
-    
-        
-        
-        
-        
-    
-
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;https://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; /&gt;
-        &lt;/span&gt;
-    
-
-
-If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.&lt;/p&gt;
-
-&lt;p&gt;In updating a set of profiles for Ilumia Images yesterday I had that very same issue.  Fortunately a quick search of Google brought me to the resources page of 
-
-    
-        
-    
-
-    &lt;a href=&#34;http://www.everyinteraction.com/resources/&#34; target=&#39;_blank&#39;&gt;Every Interaction&lt;/a&gt;
-
-, a web design business based in London.  The page has PSD templates for:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Facebook&lt;/li&gt;
-&lt;li&gt;Twitter&lt;/li&gt;
-&lt;li&gt;LinkedIn&lt;/li&gt;
-&lt;li&gt;Google+&lt;/li&gt;
-&lt;li&gt;Youtube&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So you can just drop your images in, make sure they&amp;rsquo;re the right size and that everything looks good.&lt;/p&gt;
-
-&lt;p&gt;Now there&amp;rsquo;s no excuse for not getting those profile pages looking good.&lt;/p&gt;
-</description>
+      <description>If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
+In updating a set of profiles for Ilumia Images yesterday I had that very same issue. Fortunately a quick search of Google brought me to the resources page of Every Interaction , a web design business based in London.</description>
     </item>
     
   </channel>

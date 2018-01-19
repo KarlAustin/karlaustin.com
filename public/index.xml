@@ -2,12 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me &amp; Life</title>
-    <link>https://karlaustin.com/index.xml</link>
+    <link>https://karlaustin.com/</link>
     <description>Recent content on Me &amp; Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 11 Mar 2017 19:55:20 +0000</lastBuildDate>
-    <atom:link href="https://karlaustin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://karlaustin.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juniper vMX CentOS i40e Driver Issues</title>
+      <link>https://karlaustin.com/post/juniper-vmx-centos-i40e-issues/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/juniper-vmx-centos-i40e-issues/</guid>
+      <description>vMX - Nice if you can make it work I like Juniper&amp;rsquo;s vMX product, I like JunOS and vMX makes it much more affordable to run inside your network.
+What I don&amp;rsquo;t like is the rather sketchy documentation that gives the impression they&amp;rsquo;d rather you don&amp;rsquo;t run vMX. It&amp;rsquo;s clear that Ubuntu is their primary platform along with VMware now. They list support for Redhat and CentOS, but with CentOS at least there are some issues that the documentation doesn&amp;rsquo;t cover.</description>
+    </item>
     
     <item>
       <title>Negotiating With A Threenager</title>
@@ -15,45 +27,7 @@
       <pubDate>Sat, 11 Mar 2017 19:55:20 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/negotiating-with-a-threenager/</guid>
-      <description>
-
-&lt;h1 id=&#34;we-don-t-negotiate-with-terrorists-or-threenagers&#34;&gt;We Don&amp;rsquo;t Negotiate With Terrorists or Threenagers&lt;/h1&gt;
-
-&lt;p&gt;Now don&amp;rsquo;t get me wrong, we really can&amp;rsquo;t complain with George, he doesn&amp;rsquo;t have many tantrums at all.  I&amp;rsquo;d like to lay claim to that being down to me, but in reality it&amp;rsquo;s Karen and her DNA.  Today however was one of those, &amp;ldquo;How can I be so heartless?&amp;rdquo; moments, as today there was no negotiation, it really was &amp;ldquo;Our way or our way&amp;rdquo;.&lt;/p&gt;
-
-&lt;h1 id=&#34;how-do-you-like-your-eggs&#34;&gt;How Do You Like Your Eggs?&lt;/h1&gt;
-
-&lt;p&gt;I like mine pretty much whatever way you want to do them.  George likes his non-existent for the most part, or in cake, cake is a good use of eggs.  This morning George had seen Hey Duggee, Duggee had been eating omelette and George said he&amp;rsquo;d like omelette for lunch, knowing it was eggs.  Interesting.&lt;/p&gt;
-
-&lt;h1 id=&#34;high-noon-chicken&#34;&gt;High Noon Chicken&lt;/h1&gt;
-
-&lt;p&gt;Come lunch time Karen asked George if he wanted eggs for lunch and if he wanted omelette, to which he declared he wanted his eggs boiled, not dippy, but hard boiled.  That&amp;rsquo;s what he got and that&amp;rsquo;s the start of losing an hour of our day.  Lunch progressed, sandwiches were eaten, crisps were eaten, tomatoes were eaten, cucumber was eaten, ham was eaten, the egg was not.&lt;/p&gt;
-
-&lt;p&gt;Normally in these circumstances that&amp;rsquo;d have been fine, but we&amp;rsquo;ve been having a bit of an issue with things being asked for and then not eaten.  Today was the final straw, with not to much as a hint of even touching the egg.  That&amp;rsquo;s when the game of chicken began.&lt;/p&gt;
-
-&lt;h1 id=&#34;tears-snot-dribble-and-drool&#34;&gt;Tears, Snot, Dribble and Drool&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Please (signed), may leave table?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Normally George will await an answer, but today he knew a game was afoot and he was off, making it all of about 2ft from the dining table before the re-capture.  What followed was 55 minutes of a cycle of:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Please eat some of your egg, you asked for egg, so you have to eat some of it before you can leave the table&lt;/li&gt;
-&lt;li&gt;Crying &amp;amp; tears&lt;/li&gt;
-&lt;li&gt;Snot and drool&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;I want my Mummy&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Inbetween we did have one moment of egg white going in the mouth, but it was just spat out.  I&amp;rsquo;ll give him his dues, at not point did he try and leave the table again, but he also didn&amp;rsquo;t try the egg.&lt;/p&gt;
-
-&lt;p&gt;At some point as we were losing the will to live, we took the choice down to a fork with a small piece of egg white on it and a spoon with a small piece of egg yolk.  It didn&amp;rsquo;t help.&lt;/p&gt;
-
-&lt;h1 id=&#34;breakthrough&#34;&gt;Breakthrough&lt;/h1&gt;
-
-&lt;p&gt;After nearly an hour of feeling like the worth human being on the planet, with no heart or soul I had to give in to him trying to sit on my lap.  After 5 minutes of cuddles and subtlety trying to feed him a piece of egg, he relented, ate some egg white, received a big cheer, and all was good in the world again.&lt;/p&gt;
-</description>
+      <description>We Don&amp;rsquo;t Negotiate With Terrorists or Threenagers Now don&amp;rsquo;t get me wrong, we really can&amp;rsquo;t complain with George, he doesn&amp;rsquo;t have many tantrums at all. I&amp;rsquo;d like to lay claim to that being down to me, but in reality it&amp;rsquo;s Karen and her DNA. Today however was one of those, &amp;ldquo;How can I be so heartless?&amp;rdquo; moments, as today there was no negotiation, it really was &amp;ldquo;Our way or our way&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -62,135 +36,7 @@
       <pubDate>Sun, 05 Mar 2017 09:50:46 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/ipv6-at-home-it-should-not-be-this-hard/</guid>
-      <description>
-
-&lt;h1 id=&#34;5ghz-here-we-come&#34;&gt;5Ghz Here We Come&lt;/h1&gt;
-
-&lt;p&gt;A few months ago I changed my home router from a &lt;a href=&#34;https://www.amazon.co.uk/gp/product/B00I4QFQDI/ref=as_li_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=B00I4QFQDI&amp;amp;linkCode=as2&amp;amp;tag=karlaustincom-21&#34;&gt;Mikrotik RB2011&lt;/a&gt; router to a &lt;a href=&#34;https://www.amazon.co.uk/gp/product/B01562PSIU/ref=as_li_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=B01562PSIU&amp;amp;linkCode=as2&amp;amp;tag=karlaustincom-21&#34;&gt;Linksys WRT1900ACSv2&lt;/a&gt; - Not a particularly cheap router, it&amp;rsquo;s still &amp;pound; even now.  I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS.  I&amp;rsquo;ve got Gigabit wired to most rooms, but I just can&amp;rsquo;t be bothered to find a cable most of the time to hook up to - I don&amp;rsquo;t usually have one long enough at home, work tends to stay at work these days.&lt;/p&gt;
-
-&lt;h1 id=&#34;how-hard-can-it-be-to-get-ipv6-working&#34;&gt;How Hard Can It Be To Get IPv6 Working?&lt;/h1&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t really like the Linksys interface, so I did what any self respecting IT geek does, I put DD-WRT firmware on it straight away, which it turns out was a mistake.  It has very poor support for IPv6 out of the box, as in virtually non-existent if you just want to put a few details in to the interface and have it work.&lt;/p&gt;
-
-&lt;p&gt;After a couple of hours of googling and faffing I&amp;rsquo;d had enough and went back to the stock Linksys firmware to see what the IPv6 support in that was like, after all it does claim to support IPv6.&lt;/p&gt;
-
-&lt;h1 id=&#34;liar-liar-pants-on-fire&#34;&gt;Liar Liar, Pants On Fire&lt;/h1&gt;
-
-&lt;p&gt;Whilst it&amp;rsquo;s true that the WRT1900ACSv2 does support IPv6, it&amp;rsquo;s a bodge.  The only thing it supports is 6rd, which is tunneling mechanism and not native IPv6.  Tunneling is a bodge at the end of the day and high end routers shouldn&amp;rsquo;t just be limiting you to a bodge, they should have proper native IPv6 dual-stack support.  There&amp;rsquo;s no excuse these days. None.&lt;/p&gt;
-
-&lt;h1 id=&#34;openwrt-come-on-down&#34;&gt;OpenWRT, Come On Down&lt;/h1&gt;
-
-&lt;p&gt;After a few minutes ranting at Linksys I switched over to OpenWRT, what a revelation compared to DD-WRT.  The web interface, Luci, was virtually instant with anything asked of it and had proper IPv6 support built right in there; that&amp;rsquo;s not to say I didn&amp;rsquo;t have problems though.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m on an FTTC connection from &lt;a href=&#34;http://goscomb.net&#34;&gt;Goscomb&lt;/a&gt; and for v6 I have a /48 subnet assigned to me - unfortunately this doesn&amp;rsquo;t get pushed to the router by Router Advertisement (RA) or DHCPv6, only the /64 linknet.  Getting the /48 on to the router wasn&amp;rsquo;t an issue, a quick bit of googling gave me the simple and Ubuntu style config file format for the network, within 10 minutes of flashing the router I&amp;rsquo;d got IPv6 addresses out to the clients.  That&amp;rsquo;s when the fun began.&lt;/p&gt;
-
-&lt;h1 id=&#34;no-ipv6-connectivity&#34;&gt;No IPv6 Connectivity&lt;/h1&gt;
-
-&lt;p&gt;Once the clients had got an IPv6 address, they couldn&amp;rsquo;t actually get to anything out on the net.  That&amp;rsquo;s when a couple of hours of fiddling around started, I could either:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have IPv6 addresses on the clients&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have the router connect out via IPv6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;but not both.  After a while I did get both happening, but still no IPv6 from clients to the net.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-solution&#34;&gt;The Solution&lt;/h1&gt;
-
-&lt;p&gt;It turns out the default route that was being configured to send IPv6 from the router, to the other end (Goscomb) of the Link-Local v6 subnet wasn&amp;rsquo;t actually doing it&amp;rsquo;s job and I had to manually configure an IPv6 default route to just aim all v6 traffic at the wan interface.  A very simple thing to do, but one that still took too long to find and work out late at night.&lt;/p&gt;
-
-&lt;h1 id=&#34;my-config-redacted&#34;&gt;My Config (Redacted)&lt;/h1&gt;
-
-&lt;p&gt;/etc/config/network&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;config interface &#39;loopback&#39;
-        option ifname &#39;lo&#39;
-        option proto &#39;static&#39;
-        option ipaddr &#39;127.0.0.1&#39;
-        option netmask &#39;255.0.0.0&#39;
-
-config interface &#39;lan&#39;
-        option ifname &#39;eth1&#39;
-        option force_link &#39;1&#39;
-        option type &#39;bridge&#39;
-        option proto &#39;static&#39;
-        option ipaddr &#39;192.168.X.1&#39;
-        option netmask &#39;255.255.255.0&#39;
-        option ip6assign &#39;60&#39;
-        option ip6hint &#39;1&#39;
-
-config interface &#39;wan&#39;
-        option ifname &#39;eth0&#39;
-        option _orig_ifname &#39;eth0&#39;
-        option _orig_bridge &#39;false&#39;
-        option proto &#39;pppoe&#39;
-        option username &#39;user@example.org&#39;
-        option password &#39;APasswordHere&#39;
-
-config interface &#39;wan6&#39;
-        option ifname &#39;@wan&#39;
-        option proto &#39;dhcpv6&#39;
-        option reqaddress &#39;try&#39;
-        option reqprefix &#39;no&#39;
-        option defaultroute &#39;0&#39;
-        option ip6prefix &#39;2a01:X:Y::/48&#39;
-
-config &#39;route6&#39;
-        option interface &#39;wan&#39;
-        option target &#39;::/0&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;/etc/config/dhcp&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;config dnsmasq
-        option domainneeded &#39;1&#39;
-        option boguspriv &#39;1&#39;
-        option filterwin2k &#39;0&#39;
-        option localise_queries &#39;1&#39;
-        option rebind_protection &#39;1&#39;
-        option rebind_localhost &#39;1&#39;
-        option local &#39;/lan/&#39;
-        option domain &#39;lan&#39;
-        option expandhosts &#39;1&#39;
-        option nonegcache &#39;0&#39;
-        option authoritative &#39;1&#39;
-        option readethers &#39;1&#39;
-        option leasefile &#39;/tmp/dhcp.leases&#39;
-        option resolvfile &#39;/tmp/resolv.conf.auto&#39;
-        option localservice &#39;1&#39;
-
-config dhcp &#39;lan&#39;
-        option interface &#39;lan&#39;
-        option start &#39;100&#39;
-        option limit &#39;150&#39;
-        option leasetime &#39;48h&#39;
-        option ra_maxinterval &#39;30&#39;
-        option ra &#39;server&#39;
-        option dhcpv6 &#39;server&#39;
-        option ra_default &#39;1&#39;
-        option ra_management &#39;1&#39;
-
-config dhcp &#39;wan&#39;
-        option interface &#39;wan&#39;
-        option ignore &#39;1&#39;
-
-config odhcpd &#39;odhcpd&#39;
-        option maindhcp &#39;1&#39;
-        option leasefile &#39;/tmp/hosts/odhcpd&#39;
-        option leasetrigger &#39;/usr/sbin/odhcpd-update&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;this-is-my-day-job-it-shouldn-t-be-this-hard&#34;&gt;This Is My Day Job - It Shouldn&amp;rsquo;t Be This Hard!&lt;/h1&gt;
-
-&lt;p&gt;Bearing in mind this is my day job and I work with routers that are insanely complex compared to your average home router and cost well in to 5 figures at the low end, it just shouldn&amp;rsquo;t be this difficult.  I get that most people use a router from their ISP so that all of this is hidden from them, bt there are still an awful lot of people who don&amp;rsquo;t because their ISP doesn&amp;rsquo;t provide one, or the one it does provide is awful.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s 2017, IPv6 was drafted in 1996, it&amp;rsquo;s 21 years old.  In that time it&amp;rsquo;s been tweaked a bit along the way, but there&amp;rsquo;s really no excuse for any home router to not have it, other than saving a few pence on a bill of materials and that&amp;rsquo;s just irresponsible to their users and the internet as a whole.  Without widespread IPv6 adoption for end users we end up with nasty solutions such as CG-NAT, when NAT should have been put out of its misery years ago, not adding more layers of complexity to it.&lt;/p&gt;
-</description>
+      <description>5Ghz Here We Come A few months ago I changed my home router from a Mikrotik RB2011 router to a Linksys WRT1900ACSv2 - Not a particularly cheap router, it&amp;rsquo;s still &amp;pound; even now. I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS. I&amp;rsquo;ve got Gigabit wired to most rooms, but I just can&amp;rsquo;t be bothered to find a cable most of the time to hook up to - I don&amp;rsquo;t usually have one long enough at home, work tends to stay at work these days.</description>
     </item>
     
     <item>
@@ -199,58 +45,8 @@ config odhcpd &#39;odhcpd&#39;
       <pubDate>Sat, 04 Mar 2017 18:41:30 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/peertools-automating-notification-of-potential-peers/</guid>
-      <description>
-
-&lt;h1 id=&#34;the-problem&#34;&gt;The Problem&lt;/h1&gt;
-
-&lt;p&gt;When you connect to an internet peering exchange, the IP addresses you&amp;rsquo;re given for your interfaces will most likely have been used by someone else prior to you, that has left the exchange.&lt;/p&gt;
-
-&lt;p&gt;This means, because we&amp;rsquo;re not all good at housekeeping, that you&amp;rsquo;ll end up with ISPs trying to open up BGP sessions with your routers and if you&amp;rsquo;re not firewalling them out then you&amp;rsquo;ll end up with a lot of messages about BGP Opens being received from unconfigured neighbours.  If you&amp;rsquo;re firewalling (and you should be) and you&amp;rsquo;re logging you&amp;rsquo;ll end up with a lot of hits logged against port 179.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-solution&#34;&gt;The Solution&lt;/h1&gt;
-
-&lt;p&gt;Ideally you&amp;rsquo;d like everyone to keep their peering neat and tidy, but we&amp;rsquo;re not in an ideal world unfortunately.  So I came up with a tool that will:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Scan your message log for BGP opens from unconfigured neighbours&lt;/li&gt;
-&lt;li&gt;Scan your message log for TCP with unexpected MD5&lt;/li&gt;
-&lt;li&gt;Scan your firewall log for connections to port 179 that have been dropped&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This catches most instances and you end up with a list of IP address, the system then:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Looks at the peering point data to see what ASN the IP address is assigned to&lt;/li&gt;
-&lt;li&gt;Checks PeeringDB for a peering contact for the ASN&lt;/li&gt;
-&lt;li&gt;Emails the peering contact based on the email template, which by default shows the peering LAN and IP addresses trying to open sessions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;what-it-supports-right-now&#34;&gt;What It Supports Right Now&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JunOS 12.x - It may work with other versions of JunOS, but that&amp;rsquo;s what it has been tested with.&lt;/li&gt;
-&lt;li&gt;SSH - Key based SSH for connecting to JunOS&lt;/li&gt;
-&lt;li&gt;LINX - Currently it is hard coded to work with LINX, The London Internet Exchange.&lt;/li&gt;
-&lt;li&gt;PeeringDB - Only PeeringDB is supported at the moment for fetching an AS numbers peering contacts&lt;/li&gt;
-&lt;li&gt;Email - Email is the current form of contact&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;what-it-can-support-right-now-if-you-want-to-write-a-module&#34;&gt;What It Can Support Right Now If You Want To Write a Module?&lt;/h1&gt;
-
-&lt;p&gt;The router code is modularised and self contained, so any router or switch can be supported.&lt;/p&gt;
-
-&lt;p&gt;The router class includes what commands to execute to fetch and parse the data in to an IP address.  Additional commands are added in to an array.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-future&#34;&gt;The Future&lt;/h1&gt;
-
-&lt;p&gt;The aim is to make a simple suite of tools for small ISPs without their own staff to better manage their peering relationships.  The next evolution will hopefully add tracking support, so it will log when you last emailed a given peer and allow you to set a time period for them to respond before it emails again.&lt;/p&gt;
-
-&lt;h1 id=&#34;where-can-i-find-it&#34;&gt;Where Can I Find It?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/KarlAustin/peertools&#34;&gt;https://github.com/KarlAustin/peertools&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The code is currently still a little rough in places, as it was quickly built to deal with the 30 or so IPs hitting our peering routers every few seconds.  So far we&amp;rsquo;ve had a couple of ISPs stop and several agree to peer with us.  Please feel to contribute or comment.&lt;/p&gt;
-</description>
+      <description>The Problem When you connect to an internet peering exchange, the IP addresses you&amp;rsquo;re given for your interfaces will most likely have been used by someone else prior to you, that has left the exchange.
+This means, because we&amp;rsquo;re not all good at housekeeping, that you&amp;rsquo;ll end up with ISPs trying to open up BGP sessions with your routers and if you&amp;rsquo;re not firewalling them out then you&amp;rsquo;ll end up with a lot of messages about BGP Opens being received from unconfigured neighbours.</description>
     </item>
     
     <item>
@@ -259,51 +55,7 @@ config odhcpd &#39;odhcpd&#39;
       <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/printer-sample-packs-and-fail/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve been busy the last couple of months putting things in place to get Ilumia Images up and running as its own business and as part of that I needed some printing done for business cards and some other items.  I spent quite a bit of time on Google looking at options etc. and send off for sample print packs from 4 different printers
- - Printed.com
- - Solopress.com
- - digitalprinting.co.uk
- - JAK Inc&lt;/p&gt;
-
-&lt;h2 id=&#34;delivery&#34;&gt;Delivery&lt;/h2&gt;
-
-&lt;p&gt;The first three of those all arrived within 3 days and all presented very nicely.  The fourth, from JAK Ink arrived after 8 days, one day after I&amp;rsquo;d placed my order elsewhere.&lt;/p&gt;
-
-&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
-
-&lt;h3 id=&#34;printed-com&#34;&gt;Printed.com&lt;/h3&gt;
-
-&lt;p&gt;A clean white A5 envelope, with an A5 folder and a number of A5 sample sheets of paper in them.  The papers also had a nice touch on the back of them, showing how a set of colour swatches would be printed on to that paper, which I think is a great touch.&lt;/p&gt;
-
-&lt;h3 id=&#34;solopress-com&#34;&gt;Solopress.com&lt;/h3&gt;
-
-&lt;p&gt;Solopress were the flashiest, sending out a perfect bound sample book of various papers and finishes in a metallic blue bubble envelope which I wish I&amp;rsquo;d taken a photograph of.  Not only did it show off their different papers and finishes very well, it also showcased their binding and felt very professional and something I could easily keep on my shelf for future reference.&lt;/p&gt;
-
-&lt;h3 id=&#34;digitalprinting-co-uk&#34;&gt;digitalprinting.co.uk&lt;/h3&gt;
-
-&lt;p&gt;Another folder, this time A4 inside the nice white envelope.  Inside the folder there were a selection of items such as business cards, stickers, compliment slips, postcards etc. that showed off their range of products and finishes.&lt;/p&gt;
-
-&lt;h3 id=&#34;jak-inc&#34;&gt;JAK Inc&lt;/h3&gt;
-
-&lt;p&gt;Talk about disappointing.  After waiting for a week after the first sample pack turned up I was expecting something a bit special, how wrong I was.  What I got was a small pink envelope with four postcard sized print samples and two business card samples inside.  The only indication of who these samples were from was the handwritten &amp;ldquo;Jak Inc&amp;rdquo; on the inside of the envelope flap.  For a company that makes products that are all about presentation and making a good impression, their first impressions were incredibly poor compared to their similarly priced competition.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-samples&#34;&gt;The samples&lt;/h2&gt;
-
-
-
-
-
-
-&lt;h2 id=&#34;print-quality&#34;&gt;Print Quality&lt;/h2&gt;
-
-&lt;p&gt;All of the samples were of a good quality with nothing really to chose between them, despite what my phone pictures above might be telling you.&lt;/p&gt;
-
-&lt;h2 id=&#34;decision&#34;&gt;Decision&lt;/h2&gt;
-
-&lt;p&gt;I picked Printed.com for my business cards, as only they and JAK Inc offered the velvet finish I wanted.  For the compliment slips and letterheads I went with Solopress as they were considerably cheaper than Printed.com and digitalprinting.co.uk.  Once everything arrives I&amp;rsquo;ll post up a review of both of them.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been busy the last couple of months putting things in place to get Ilumia Images up and running as its own business and as part of that I needed some printing done for business cards and some other items. I spent quite a bit of time on Google looking at options etc. and send off for sample print packs from 4 different printers - Printed.com - Solopress.com - digitalprinting.</description>
     </item>
     
     <item>
@@ -312,59 +64,8 @@ config odhcpd &#39;odhcpd&#39;
       <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid>
-      <description>
-
-&lt;p&gt;If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.&lt;/p&gt;
-
-&lt;p&gt;I hit this issue with another website late last week, where the DH params had already been re-generated to 2048 bit, but that change removed.  Your IDE probably just says it can&amp;rsquo;t connect, that&amp;rsquo;s what JetBrains WebStorm and PhpStorm do although the logs did give more information:
-&lt;pre&gt;
-Caused by: java.security.InvalidAlgorithmParameterException:
-Prime size must be multiple of 64, and can only range from 512 to 2048 (inclusive)
-&lt;/pre&gt;
-NetBeans gave the game away sooner by giving the error from Java about DH parameters.&lt;/p&gt;
-
-&lt;h2 id=&#34;weak-dh-keys&#34;&gt;Weak DH Keys&lt;/h2&gt;
-
-&lt;p&gt;The root cause of the issue is a problem with weak Diffie-Hellman key sizes, widely reported as the Logjam attack.  The recommendation is to move to 2048 bit prime number sizes which sounds brilliant, but then&amp;hellip;.&lt;/p&gt;
-
-&lt;h2 id=&#34;damn-you-java&#34;&gt;Damn you Java&lt;/h2&gt;
-
-&lt;p&gt;Only Java 8 supports 2048bit DH params, v7 supports a maximum of 1024bit.&lt;/p&gt;
-
-&lt;p&gt;The big problem is that Java 8 supports only a &lt;em&gt;maximum&lt;/em&gt; of 2048bit, this is where we hit an issue with cPanel v56.&lt;/p&gt;
-
-&lt;h2 id=&#34;oops-cpanel&#34;&gt;Oops cPanel&lt;/h2&gt;
-
-&lt;p&gt;It seems that on April 20th 2016 cPanel pushed out an update that generated new dhparams for pure-ftpd, but they didn&amp;rsquo;t fully understand the warnings around Java, as they generated 3072 bit DH params, which you can verify with the following command:&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;
-openssl dh -in /etc/ssl/private/pure-ftpd-dhparams.pem -text -noout
-&lt;/pre&gt;
-You&amp;rsquo;ll see output like the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;
-Diffie-Hellman-Parameters: (3072 bit)
-    prime:
-        00:80:26:5e:fe:c9:8e:63:2d:6d:52:3e:ab:4c:49:
-        &lt;snip&gt;
-&lt;/pre&gt;
-As you can see, 3072 bit.&lt;/p&gt;
-
-&lt;h2 id=&#34;fixing-it&#34;&gt;Fixing it&lt;/h2&gt;
-
-&lt;p&gt;Fortunately the fix is easy:&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;
-cp /etc/ssl/private/pure-ftpd-dhparams.pem /etc/ssl/private/pure-ftpd-dhparams.pem.bak
-openssl dhparam -out /etc/ssl/private/pure-ftpd-dhparams.pem 2048
-service pure-ftpd restart
-&lt;/pre&gt;
-We&amp;rsquo;ve backed up the existing params just in case and generated new ones for pure-ftpd to use.&lt;/p&gt;
-
-&lt;h2 id=&#34;will-it-break-again&#34;&gt;Will it break again?&lt;/h2&gt;
-
-&lt;p&gt;That remains to be seen.  The issue has been reported to cPanel, so hopefully it won&amp;rsquo;t break as we&amp;rsquo;re not just talking a few IDEs here like JetBrains, NetBeans etc. there are also countless ERP systems out there that use Java and a lot of them shuffle files (such as orders, tracking info for shipping) in and out via FTP with their customers and suppliers.&lt;/p&gt;
-</description>
+      <description>If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.
+I hit this issue with another website late last week, where the DH params had already been re-generated to 2048 bit, but that change removed.</description>
     </item>
     
     <item>
@@ -373,40 +74,8 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/facebook-claiming-a-page/</guid>
-      <description>
-
-&lt;h1 id=&#34;what-a-pita&#34;&gt;What a PITA&lt;/h1&gt;
-
-&lt;p&gt;I&amp;rsquo;m the technical admin of the 
-
-    
-        
-    
-
-    &lt;a href=&#34;http://www.whitwellcommunitycentre.com&#34; target=&#39;_blank&#39;&gt;Whitwell Community Centre&lt;/a&gt;
-
- Facebook page.  Every now and then someone will create a new Facebook Location for the centre and when we spot them, we merge them in to the main page, pretty standard stuff.&lt;/p&gt;
-
-&lt;h2 id=&#34;don-t-make-it-easy-will-you&#34;&gt;Don&amp;rsquo;t make it easy will you?&lt;/h2&gt;
-
-&lt;p&gt;Facebook don&amp;rsquo;t make it easy, this time it has been a right pain.  I tried to merge the location in with the official page, unfortunately the official page wasn&amp;rsquo;t listed int he drop down of pages I could merge it with.&lt;/p&gt;
-
-&lt;p&gt;As an alternative I thought I&amp;rsquo;d just try and claim it as the owner, part of that is adding an email address from the organisation to your profile.  Easy enough right? &lt;em&gt;Oh no&lt;/em&gt;, my email address is in the form of &lt;code&gt;admin@&lt;/code&gt; which Facebook promptly told me isn&amp;rsquo;t a valid email address - which is funny, as I&amp;rsquo;ve been getting email at it for several years now.  So off I pop to configure a different email address, which Facebook then willingly accepts.&lt;/p&gt;
-
-&lt;p&gt;Thinking that this might have changed the merge outcome I have another go, &lt;em&gt;nope&lt;/em&gt;, still not listed in the drop down.&lt;/p&gt;
-
-&lt;p&gt;Facebook do say that the pages need to have similar names (they have exactly the same name) and be of the same type.  Now trying to work out how to get the official page to say just &amp;ldquo;Community Centre&amp;rdquo; is what was fun, it took 30 minutes of experimenting to work that one out, trying different combinations of types and sub-categories. Why I can&amp;rsquo;t just type in &amp;ldquo;Community Centre&amp;rdquo; and it suggest the appropriate options I will never know.&lt;/p&gt;
-
-&lt;h2 id=&#34;arghhhhh&#34;&gt;Arghhhhh&lt;/h2&gt;
-
-&lt;p&gt;Now we have everything matching, the name, the type of organisation and yet it &lt;strong&gt;still&lt;/strong&gt; won&amp;rsquo;t list the official page in the drop down for me to merge it with.&lt;/p&gt;
-
-&lt;p&gt;How a company with so many developers and experts in their field can make such a user hostile system I will never know. It should not be this difficult.&lt;/p&gt;
-
-&lt;h1 id=&#34;final-hope&#34;&gt;Final Hope&lt;/h1&gt;
-
-&lt;p&gt;My final hope is that having added an organisation email address and submitted a claim for admin rights on the page, that I will be able to merge it in with the official page.  &lt;em&gt;Fingers crossed&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>What a PITA I&amp;rsquo;m the technical admin of the Whitwell Community Centre Facebook page. Every now and then someone will create a new Facebook Location for the centre and when we spot them, we merge them in to the main page, pretty standard stuff.
+Don&amp;rsquo;t make it easy will you? Facebook don&amp;rsquo;t make it easy, this time it has been a right pain. I tried to merge the location in with the official page, unfortunately the official page wasn&amp;rsquo;t listed int he drop down of pages I could merge it with.</description>
     </item>
     
     <item>
@@ -415,35 +84,8 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
       <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/a-self-portrait/</guid>
-      <description>
-
-&lt;h1 id=&#34;it-s-not-easy&#34;&gt;It&amp;rsquo;s Not Easy&lt;/h1&gt;
-
-&lt;p&gt;It turns out it isn&amp;rsquo;t as easy to take a decent self portrait as you&amp;rsquo;d think.  Due to a number of factors I scrapped plans for my photo session today, but as it turned out I could actually do it but had no models, so the only one left was me.&lt;/p&gt;
-
-&lt;p&gt;One of the reasons I take photos is so that I&amp;rsquo;m not in them, I don&amp;rsquo;t like having my photo taken and even though no one else was present it still took me some time to get even slightly comfortable being the subject of my photos.&lt;/p&gt;
-
-&lt;h2 id=&#34;stay-still-man&#34;&gt;Stay Still Man!&lt;/h2&gt;
-
-&lt;p&gt;Getting yourself in the right position &amp;amp; pose each time you make a change is pretty much impossible, especially if you&amp;rsquo;ve manually focused the camera as I did to start with.  Manual focus + long focal length + non-repeatable positioning = out of focus photos.&lt;/p&gt;
-
-&lt;p&gt;Even though I was shooting with my camera connected to my laptop it was still tricky trying to balance, pose &amp;amp; lighting.  I don&amp;rsquo;t shoot using the live view mode, as I&amp;rsquo;ve never been happy with the results.  You really can&amp;rsquo;t beat the real-time feedback you get from looking through the viewfinder and seeing the effect the modelling lights have.&lt;/p&gt;
-
-&lt;p&gt;I did consider taking a bigger screen with me, but it was even more kit to load and unload so in the end I decided not to - I really should have taken it and also put some contact lenses in!&lt;/p&gt;
-
-&lt;h1 id=&#34;not-a-wasted-experience&#34;&gt;Not a Wasted Experience&lt;/h1&gt;
-
-&lt;p&gt;Even though I had no one else modelling for me, it wasn&amp;rsquo;t a wasted session.  I still learnt a few lessons, which is what it&amp;rsquo;s all about right now, one of them being to have some spare modelling bulbs to hand!&lt;/p&gt;
-
-&lt;p&gt;More importantly then that though, I learnt that I really do need to get off my backside and join the gym, enough is enough.  I&amp;rsquo;ve put on about 12Kg (nearly 2 stone) since we got married at the end of 2012, it&amp;rsquo;s time that it went.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-results&#34;&gt;The Results&lt;/h1&gt;
-
-
-
-
-
-</description>
+      <description>It&amp;rsquo;s Not Easy It turns out it isn&amp;rsquo;t as easy to take a decent self portrait as you&amp;rsquo;d think. Due to a number of factors I scrapped plans for my photo session today, but as it turned out I could actually do it but had no models, so the only one left was me.
+One of the reasons I take photos is so that I&amp;rsquo;m not in them, I don&amp;rsquo;t like having my photo taken and even though no one else was present it still took me some time to get even slightly comfortable being the subject of my photos.</description>
     </item>
     
     <item>
@@ -452,66 +94,8 @@ We&amp;rsquo;ve backed up the existing params just in case and generated new one
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
-      <description>&lt;p&gt;
-
-
-    
-    
-        
-        
-        
-        
-    
-
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;https://karlaustin.com/img/2016/03/EveryInteraction-Resources.jpg&#34; alt=&#34;Every Interaction: Resources Page&#34; /&gt;
-        &lt;/span&gt;
-    
-
-
-If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.&lt;/p&gt;
-
-&lt;p&gt;In updating a set of profiles for Ilumia Images yesterday I had that very same issue.  Fortunately a quick search of Google brought me to the resources page of 
-
-    
-        
-    
-
-    &lt;a href=&#34;http://www.everyinteraction.com/resources/&#34; target=&#39;_blank&#39;&gt;Every Interaction&lt;/a&gt;
-
-, a web design business based in London.  The page has PSD templates for:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Facebook&lt;/li&gt;
-&lt;li&gt;Twitter&lt;/li&gt;
-&lt;li&gt;LinkedIn&lt;/li&gt;
-&lt;li&gt;Google+&lt;/li&gt;
-&lt;li&gt;Youtube&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So you can just drop your images in, make sure they&amp;rsquo;re the right size and that everything looks good.&lt;/p&gt;
-
-&lt;p&gt;Now there&amp;rsquo;s no excuse for not getting those profile pages looking good.&lt;/p&gt;
-</description>
+      <description>If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
+In updating a set of profiles for Ilumia Images yesterday I had that very same issue. Fortunately a quick search of Google brought me to the resources page of Every Interaction , a web design business based in London.</description>
     </item>
     
     <item>
@@ -520,106 +104,8 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
       <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/wordpress-youre-fired/</guid>
-      <description>
-
-&lt;h1 id=&#34;the-honeymoon-is-over&#34;&gt;The Honeymoon Is Over&lt;/h1&gt;
-
-&lt;p&gt;Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site.  It&amp;rsquo;s going though.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been using Wordpress since around version 1.5, as have many of our customers at KDA.  Whilst Wordpress is supposed to make things easier, it doesn&amp;rsquo;t really.  It just swaps some things you need to do, for another set of things you need to do instead.&lt;/p&gt;
-
-&lt;p&gt;Instead of needing to know how to write some HTML, you now need to know how to use all the features of Wordpress, which plugins work with other plugins and how to tweak everything to get the best out of it - or you need to pay someone to do it for you.&lt;/p&gt;
-
-&lt;h2 id=&#34;popularity-has-it-s-problems&#34;&gt;Popularity Has It&amp;rsquo;s Problems&lt;/h2&gt;
-
-&lt;p&gt;Wordpress powers roughly  25% off all websites on internet and due to that popularity it has every hacker out there looking at it and trying to find a weakness.  When you consider the volume of plugins and themes as well as the core of Wordpress that&amp;rsquo;s an awful lot of places to find a way in to your website.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t remember to keep Wordpress up to date plus any plugins and themes (even if you&amp;rsquo;re not using them) then you will be hacked.  It isn&amp;rsquo;t &lt;em&gt;if&lt;/em&gt; you will be hacked it is &lt;strong&gt;when&lt;/strong&gt; you will be hacked, even if you do try and keep everything up to date by the time you know there&amp;rsquo;s an update it could be to late already.  Been there, &lt;em&gt;done&lt;/em&gt; that, got the t-shirt.&lt;/p&gt;
-
-&lt;p&gt;Using some obscure system that no one has heard of is no better, security by obscurity is not security at all.  It&amp;rsquo;s the software equivalent of putting your fingers in your ears and shouting, &amp;ldquo;LA LA LAAA I CAN&amp;rsquo;T HEAR YOU&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;install-and-forget&#34;&gt;Install And Forget&lt;/h2&gt;
-
-&lt;p&gt;The big problem we find at KDA is that a lot of web designers will setup a website for their customers using Wordpress, because the customer wants a site they can update themselves, then they don&amp;rsquo;t provide any training or advice on how to maintain the website going forwards though, so most people get their shiny new website and then that&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;The day it is handed over is usually the last time it ever gets updated right up until the point it is hacked and we have to restore the account from a backup, get it upgraded and hope the designer didn&amp;rsquo;t do anything stupid that will break it.&lt;/p&gt;
-
-&lt;h3 id=&#34;no-sane-defaults&#34;&gt;No Sane Defaults&lt;/h3&gt;
-
-&lt;p&gt;Unfortunately Wordpress doesn&amp;rsquo;t come with any sane defaults that would stop 99% of hacks in their tracks.  More often than not, a Wordpress site is exploited by someone uploading a PHP or Perl script to the server via the upload functionality, so you end up with some PHP or Perl code inside the &lt;code&gt;wp-content/uploads&lt;/code&gt; directory which of course is publicly accessible so the hacker just pops along to your site and executes the code.  50ms later they&amp;rsquo;ve got control of your site and any others in the same account.&lt;/p&gt;
-
-&lt;p&gt;It wouldn&amp;rsquo;t take much for Wordpress to fix this, I can&amp;rsquo;t think of single legitimate reason for PHP or Perl code to be in the uploads folder.  So they could generate a &lt;code&gt;.htaccess&lt;/code&gt; on install (or prompt to create access controls on other platforms) that does something like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;FilesMatch &amp;quot;.(php[45]?|phtml|pl|cgi)$&amp;quot;&amp;gt;
- Deny from all
-&amp;lt;/FilesMatch&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which would stop access to any files with common extensions for code.  Better still, they could create a wizard that asks you what type of content you&amp;rsquo;ll be uploading (and create an API for plugins to register what content they allow) and then create something like this instead:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;FilesMatch &amp;quot;.*&amp;quot;&amp;gt;
- Deny from all
-&amp;lt;/FilesMatch&amp;gt;
-
-&amp;lt;FilesMatch &amp;quot;.(jpe?g|gif|pdf|png)$&amp;quot;&amp;gt;
- Allow from all
-&amp;lt;/FilesMatch&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which would only allow access to &lt;code&gt;.jpg&lt;/code&gt;, &lt;code&gt;.jpeg&lt;/code&gt;, &lt;code&gt;.gif&lt;/code&gt;, &lt;code&gt;.png&lt;/code&gt;, &lt;code&gt;.pdf&lt;/code&gt; files.  It should still of course raise a red flag if you try and allow &lt;code&gt;.php&lt;/code&gt;, &lt;code&gt;.pl&lt;/code&gt; etc.&lt;/p&gt;
-
-&lt;h4 id=&#34;a-plugin-could-do-that&#34;&gt;A Plugin Could Do That&lt;/h4&gt;
-
-&lt;p&gt;I&amp;rsquo;m sure someone could implement a plugin to do this, but again it comes down to something lacking in the core of Wordpress.  There isn&amp;rsquo;t enough emphasis on stopping stupid security blunders from happening and shutting down 99% of exploits.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s &lt;em&gt;incredibly&lt;/em&gt; frustrating.&lt;/p&gt;
-
-&lt;h2 id=&#34;but-surely-you-update&#34;&gt;But Surely You Update&lt;/h2&gt;
-
-&lt;p&gt;Yes, I can keep on top of my sites, as I see the pain it brings pretty much every week to customers, but even I&amp;rsquo;ve been caught out before by being a couple of hours too slow.  I am getting fed up of keeping on top of it all for multiple sites when more often than not it is overkill.&lt;/p&gt;
-
-&lt;p&gt;Yes Wordpress makes it easy to add all sorts of features to a site, but all those features inevitably slow the site down and add to the maintenance burden.  I don&amp;rsquo;t know about you, but I just want to write content for my sites, not have to keep updating everything every five minutes.&lt;/p&gt;
-
-&lt;h2 id=&#34;won-t-somebody-think-of-the-children&#34;&gt;Won&amp;rsquo;t Somebody Think Of The Children?&lt;/h2&gt;
-
-&lt;p&gt;A little thought project for you.  If you assume 75% (I bet it&amp;rsquo;s more) of all website running Wordpress are nothing more than what you&amp;rsquo;d typically call Brochure-ware then how much server processing is being wasted on making these sites available?  How many extra servers does that add up to? The electricity?  It&amp;rsquo;s quite scary really when you start to think about it.&lt;/p&gt;
-
-&lt;h1 id=&#34;my-solution&#34;&gt;My Solution&lt;/h1&gt;
-
-&lt;p&gt;I&amp;rsquo;m going back to a static HTML/CSS website for several reasons:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I can write content offline easily&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s simpler to maintain the site from a security perspective&lt;/li&gt;
-&lt;li&gt;No constant updates to watch out for and install&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s much much faster for end users without resorting to extra software such as Varnish&lt;/li&gt;
-&lt;li&gt;I can keep track of edits and versions with git, something I use every day, no 3rd party Wordpress plugin required - that might stop working!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;not-completely-technology-free&#34;&gt;Not Completely Technology Free&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m not going back to the dark ages completely, I am using a static site generator that supports themes etc. to help me generate the content on my laptop.  I am using 
-
-    
-        
-    
-
-    &lt;a href=&#34;https://gohugo.io&#34; target=&#39;_blank&#39;&gt;Hugo&lt;/a&gt;
-
- which is written in 
-
-    
-        
-    
-
-    &lt;a href=&#34;https://golang.org&#34; target=&#39;_blank&#39;&gt;Go&lt;/a&gt;
-
- so it isn&amp;rsquo;t for the feint hearted I suppose - Although I don&amp;rsquo;t think it&amp;rsquo;d take all that much training to be able to teach someone to use it once installed on their PC.&lt;/p&gt;
-
-&lt;p&gt;I picked Hugo as I already have Go installed on my system, I like Go and I like the simplicity of it all as well as it being actively worked on.  To help with content creation it has it&amp;rsquo;s own built in web server so I can preview changes as soon as I hit save in my editor - by the time I&amp;rsquo;ve switched back to my browser it&amp;rsquo;s already refreshing with the latest content.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m using WebStorm from JetBrains as my editor as it&amp;rsquo;s what I already use for my coding.  All I have to do to get my site live is tell it to upload any changes from my &lt;code&gt;public&lt;/code&gt; folder (that&amp;rsquo;s where I&amp;rsquo;ve told Hugo to save a copy of the generated site to) and it gets pushed out to here.&lt;/p&gt;
-</description>
+      <description>The Honeymoon Is Over Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site. It&amp;rsquo;s going though.
+I&amp;rsquo;ve been using Wordpress since around version 1.5, as have many of our customers at KDA. Whilst Wordpress is supposed to make things easier, it doesn&amp;rsquo;t really. It just swaps some things you need to do, for another set of things you need to do instead.</description>
     </item>
     
     <item>
@@ -628,150 +114,8 @@ If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://karlaustin.com/post/vallerret-photography-gloves-initial-thoughts/</guid>
-      <description>
-
-&lt;h1 id=&#34;vallerret-photography-gloves&#34;&gt;Vallerret Photography Gloves&lt;/h1&gt;
-
-&lt;p&gt;
-
-
-    
-    
-        
-        
-        
-        
-    
-
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-    
-        
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image right&#34;&gt;
-            &lt;img src=&#34;https://karlaustin.com/img/2016/03/20160327-5399.jpg&#34; alt=&#34;Vallerret Photography Gloves&#34; /&gt;
-        &lt;/span&gt;
-    
-
-
-I first came across the Vallerret Photography Gloves on 
-
-    
-        
-    
-
-    &lt;a href=&#34;https://www.kickstarter.com/projects/1823457299/photography-gloves-extend-your-session-in-style&#34; target=&#39;_blank&#39;&gt;Kickstarter&lt;/a&gt;
-
- back in December 2015 and today they were waiting for me when I got home from the coffee morning.&lt;/p&gt;
-
-&lt;p&gt;They got my attention as I&amp;rsquo;ve never found a pair of gloves that will keep my hands &lt;em&gt;warm&lt;/em&gt; &lt;strong&gt;and&lt;/strong&gt; &lt;em&gt;allow&lt;/em&gt; me to operate my camera as well.  It was either cold hands or fumbling with the camera, with the increased risk of dropping it.  These gloves are designed for photographers and come with some useful features as well as a nice warm merino wool inner.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
-
-&lt;p&gt;Unfortunately initial impressions are a bit poor.  They&amp;rsquo;ve obviously tried to present them nicely whilst keeping the budget down but they&amp;rsquo;ve been let down by their packaging supplier.  The Vallerret logo and writing have been embossed on to the cardboard sleeve, but the overprint has missed by a large margin so it all looks very odd and amateur.   The sleeve itself is supposed to be rectangular, but again they&amp;rsquo;ve been let down as it hasn&amp;rsquo;t been folded up in to shape so it&amp;rsquo;s half flat, half popped up on one side.  The die cut logo on the front is also tatty, it looks like the die cutter has been over-used, leading to an unclean cut.&lt;/p&gt;
-
-
-
-
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-gloves&#34;&gt;The Gloves&lt;/h2&gt;
-
-&lt;p&gt;The gloves themselves are in a simple plastic bag, and separated with a piece of tissue paper to stop them sticking together, more of which later.&lt;/p&gt;
-
-
-
-
-
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;fit&#34;&gt;Fit&lt;/h3&gt;
-
-&lt;p&gt;
-
-
-
-I ordered a medium size based on the sizing guidelines given in the Kickstarter survey, they are&amp;rsquo;t quite a perfect fit, as you can see below the thumb is quite long which results in it flopping over when trying to press any buttons on the camera.  I can get it to fit perfectly, but after 3 or 4 movements it&amp;rsquo;s back to where it naturally starts, with the joint raising away from my hand.  The other fingers all sit pretty much perfect although between the fingers, especially around the index finger they pull down quite hard which can be a little uncomfortable.  I don&amp;rsquo;t think I&amp;rsquo;d have wanted a large size as I think they would have been too baggy everywhere else, but without having a pair to try I can&amp;rsquo;t say for sure.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;flipping-fingers&#34;&gt;Flipping Fingers&lt;/h3&gt;
-
-&lt;p&gt;
-
-
-
-There also appears to be another small problem, the forefinger and thumb have flip over finger ends, so if you need you can get better control over your camera.  The forefinger closes up perfectly, you&amp;rsquo;d not know it was there, the thumb however doesn&amp;rsquo;t, gloves on or off it won&amp;rsquo;t stay closed up on either hand.  I don&amp;rsquo;t know if this is a manufacturing fault or just how they&amp;rsquo;ve been designed, so I&amp;rsquo;ll be contacting Vallerret to ask about it as the idea is that these should keep your fingers completely covered and warm when needed.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;useful-features&#34;&gt;Useful Features&lt;/h3&gt;
-
-&lt;p&gt;Both gloves feature a small zip up compartment on the back of the hand near to the wrist opening which you could fit a couple of CF cards in, or quite a few SD cards.&lt;/p&gt;
-
-&lt;p&gt;They are also textured with a rubber that is incredibly grippy on most surfaces and gives you a much better hold on your camera than you&amp;rsquo;d get with an ordinary pair of neoprene gloves.  Even with a medium pressure, trying to pull them along our kitchen table top is practically impossible.&lt;/p&gt;
-
-&lt;p&gt;The thumbs are microfibre on the back which is great for cleaning of your viewfinder, lens or screen in a pinch, although how well it&amp;rsquo;ll attract dirt from elsewhere beforehand remains to be seen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;shooting&#34;&gt;Shooting&lt;/h2&gt;
-
-&lt;p&gt;It&amp;rsquo;s a bit &amp;ldquo;nippy&amp;rdquo; in the wind today and they&amp;rsquo;ve kept my hands warm and toasty.  I think they key to them is that you&amp;rsquo;ve got to be generating a bit of warmth yourself, so I am not sure they&amp;rsquo;ll be much good for anyone sat around in a bird hide for hours.&lt;/p&gt;
-
-&lt;p&gt;The baggy thumb is really annoying though, you really notice the feel of it when you&amp;rsquo;re got your camera up to your eye.  Perhaps I do need a bigger size.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
-
-&lt;p&gt;They feel warm, and with the exception of the floppy thumb my 5d3 and 7d2 are easy enough to operate without the finger/thumb flipped back which is good. The final proof will be in the shooting when the cold weather comes back round again, I&amp;rsquo;m hopefully they&amp;rsquo;ll make autumn location shoots much more comfortable.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;What&lt;/th&gt;
-&lt;th&gt;Price&lt;/th&gt;
-&lt;th&gt;Verdict&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-
-    
-        
-    
-
-    &lt;a href=&#34;https://photographygloves.com/&#34; target=&#39;_blank&#39;&gt;Vallerret Photography Gloves&lt;/a&gt;
-
-&lt;/td&gt;
-&lt;td&gt;550kr / ~&amp;pound;47&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
+      <description>Vallerret Photography Gloves   I first came across the Vallerret Photography Gloves on Kickstarter back in December 2015 and today they were waiting for me when I got home from the coffee morning.
+They got my attention as I&amp;rsquo;ve never found a pair of gloves that will keep my hands warm and allow me to operate my camera as well. It was either cold hands or fumbling with the camera, with the increased risk of dropping it.</description>
     </item>
     
   </channel>

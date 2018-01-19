@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juniper on Me &amp; Life</title>
+    <link>https://karlaustin.com/tags/juniper/</link>
+    <description>Recent content in Juniper on Me &amp; Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://karlaustin.com/tags/juniper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juniper vMX CentOS i40e Driver Issues</title>
+      <link>https://karlaustin.com/post/juniper-vmx-centos-i40e-issues/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://karlaustin.com/post/juniper-vmx-centos-i40e-issues/</guid>
+      <description>vMX - Nice if you can make it work I like Juniper&amp;rsquo;s vMX product, I like JunOS and vMX makes it much more affordable to run inside your network.
+What I don&amp;rsquo;t like is the rather sketchy documentation that gives the impression they&amp;rsquo;d rather you don&amp;rsquo;t run vMX. It&amp;rsquo;s clear that Ubuntu is their primary platform along with VMware now. They list support for Redhat and CentOS, but with CentOS at least there are some issues that the documentation doesn&amp;rsquo;t cover.</description>
+    </item>
+    
+  </channel>
+</rss>
