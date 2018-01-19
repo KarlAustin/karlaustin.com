@@ -53,7 +53,7 @@ The first thing you might think to do is go and fetch the i40e drivers from the 
 Fortunately the solution is pretty trivial, annoyingly so.
 
 Open up:
-`drivers/i40e-1.3.46/src/i40e/kcompat.h<`
+`drivers/i40e-1.3.46/src/i40e/kcompat.h`
 
 Search for:
 `#define NDO_DFLT_BRIDGE_GETLINK_HAS_BRFLAGS`
