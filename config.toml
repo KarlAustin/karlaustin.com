@@ -1,7 +1,7 @@
 baseurl = "https://karlaustin.com/"
 languageCode = "en-gb"
 title = "Me & Life"
-theme = "hugo-future-imperfect"
+theme = "hugo-future-imperfect-slim"
 preserveTaxonomyNames = true
 paginate = 3
 DisqusShortname = "karlaustin"
@@ -33,6 +33,16 @@ googleAnalytics = "UA-75661737-1"
     #minifiedFilesCSS     = ["/css/main.min.css"]
     #minifiedFilesJS      = ["/js/main.min.js"]
 
+    cssFiles              = ["default"]
+    jsFiles               = ["default"]
+    highlightjs           = true
+    highlightjsTheme      = ""
+    highlightjsLang       = []
+    viewMorePostsLink     = "blog"
+    readingTime           = true
+    imageStretch          = ""
+    removeBlur            = false
+
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
@@ -54,10 +64,14 @@ googleAnalytics = "UA-75661737-1"
     width     = ""
     alt       = "Me: Karl Austin"
 
+
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 2
+[params.sidebar]
+    about               = "This theme was developed for Hugo static site generator."
+    postAmount          = 5
+    categories          = true
+    categoriesByCount   = true
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
