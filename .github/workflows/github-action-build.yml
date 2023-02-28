@@ -26,8 +26,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-	uses: actions/upload-artifact@master
+      - name: Deployer
+        uses: actions/upload-artifact@master
         with:
           name: website
           path: './public'
