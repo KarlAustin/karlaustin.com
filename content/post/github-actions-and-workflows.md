@@ -46,3 +46,6 @@ Fail-ish.  Ooops, only had it build an artefact to attach to the build, not actu
 
 #### Attempt 4
 Success-ish.  All built and committed back to the repo, but for some reason my webhook for deploy is failing :/
+
+#### Attempt 5
+Success!  Although I really need to commit to a different repo to avoid having to do a git pull after every git push.
