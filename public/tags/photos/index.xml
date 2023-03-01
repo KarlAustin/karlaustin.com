@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Photos on Me &amp; Life</title>
-    <link>https://karlaustin.com/tags/photos/</link>
-    <description>Recent content in Photos on Me &amp; Life</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sat, 02 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://karlaustin.com/tags/photos/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>A Self Portrait</title>
-      <link>https://karlaustin.com/post/a-self-portrait/</link>
-      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://karlaustin.com/post/a-self-portrait/</guid>
-      <description>It&amp;rsquo;s Not Easy It turns out it isn&amp;rsquo;t as easy to take a decent self portrait as you&amp;rsquo;d think. Due to a number of factors I scrapped plans for my photo session today, but as it turned out I could actually do it but had no models, so the only one left was me.
-One of the reasons I take photos is so that I&amp;rsquo;m not in them, I don&amp;rsquo;t like having my photo taken and even though no one else was present it still took me some time to get even slightly comfortable being the subject of my photos.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>photos on Me &amp; Life</title><link>https://karlaustin.com/tags/photos/</link><description>Recent content in photos on Me &amp; Life</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Sat, 02 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://karlaustin.com/tags/photos/index.xml" rel="self" type="application/rss+xml"/><item><title>A Self Portrait</title><link>https://karlaustin.com/post/a-self-portrait/</link><pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate><guid>https://karlaustin.com/post/a-self-portrait/</guid><description>It&amp;rsquo;s Not Easy It turns out it isn&amp;rsquo;t as easy to take a decent self portrait as you&amp;rsquo;d think. Due to a number of factors I scrapped plans for my photo session today, but as it turned out I could actually do it but had no models, so the only one left was me.
+One of the reasons I take photos is so that I&amp;rsquo;m not in them, I don&amp;rsquo;t like having my photo taken and even though no one else was present it still took me some time to get even slightly comfortable being the subject of my photos.</description></item></channel></rss>

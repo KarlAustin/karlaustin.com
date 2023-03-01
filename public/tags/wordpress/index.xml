@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wordpress on Me &amp; Life</title>
-    <link>https://karlaustin.com/tags/wordpress/</link>
-    <description>Recent content in Wordpress on Me &amp; Life</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 27 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://karlaustin.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Wordpress, you&#39;re fired!</title>
-      <link>https://karlaustin.com/post/wordpress-youre-fired/</link>
-      <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://karlaustin.com/post/wordpress-youre-fired/</guid>
-      <description>The Honeymoon Is Over Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site. It&amp;rsquo;s going though.
-I&amp;rsquo;ve been using Wordpress since around version 1.5, as have many of our customers at KDA. Whilst Wordpress is supposed to make things easier, it doesn&amp;rsquo;t really. It just swaps some things you need to do, for another set of things you need to do instead.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on Me &amp; Life</title><link>https://karlaustin.com/tags/wordpress/</link><description>Recent content in wordpress on Me &amp; Life</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Sun, 27 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://karlaustin.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Wordpress, you're fired!</title><link>https://karlaustin.com/post/wordpress-youre-fired/</link><pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate><guid>https://karlaustin.com/post/wordpress-youre-fired/</guid><description>The Honeymoon Is Over Let&amp;rsquo;s get this out of the way now. I like Wordpress, I like how quick it is to get a site up and running and how easy it is to add functionality to a site. It&amp;rsquo;s going though.
+I&amp;rsquo;ve been using Wordpress since around version 1.5, as have many of our customers at KDA. Whilst Wordpress is supposed to make things easier, it doesn&amp;rsquo;t really. It just swaps some things you need to do, for another set of things you need to do instead.</description></item></channel></rss>
