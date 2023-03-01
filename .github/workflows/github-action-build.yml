@@ -1,5 +1,8 @@
 name: Hook-A-Duck
 
+permissions:
+  packages: read
+
 on:
   push:
     branches:
