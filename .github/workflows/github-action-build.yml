@@ -2,6 +2,7 @@ name: Hook-A-Duck
 
 permissions:
   packages: read
+  contents: write
 
 on:
   push:
@@ -30,11 +31,19 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deployer
-        uses: actions/upload-artifact@master
+#      - name: Deployer
+#        uses: actions/upload-artifact@master
+#        with:
+#          name: website
+#          path: './public'
+
+      - name: Deploy
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: website
-          path: './public'
+          commit_message: Workflow commit of ./public
+          file_pattern: public/*
+          commit_user_name: Karl Austin
+          commit_user_email: karl@karlaustin.com
 
       - name: Invoke deployment hook
         uses: distributhor/workflow-webhook@v2
