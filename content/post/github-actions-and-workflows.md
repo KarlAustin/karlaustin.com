@@ -1,4 +1,4 @@
-+++
+7+++
 date = "2023-02-28"
 draft = false
 title = "Github Actions and Workflows"
@@ -30,3 +30,19 @@ Wish me luck with it.
 
 # Attempt 1
 Fail.  I forgot my repo is so old that it was stil called master and not main, and I'd put main in my workflow action.
+
+# Attempt 2
+Fail.  A few gotchas it seems with the examples given online for running Hugo builds as workflows.  I needed to add:
+
+```
+permissions:
+  packages: read
+```
+
+To my workflow file for it to be able to pull down the docker image.
+
+# Attempt 3
+Fail-ish.  Ooops, only had it build an artefact to attach to the build, not actually commit the public directory back to the repo.
+
+# Attempt 4
+Success-ish.  All built and committed back to the repo, but for some reason my webhook for deploy is failing :/
