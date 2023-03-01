@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Linkedin on Me &amp; Life</title>
-    <link>https://karlaustin.com/tags/linkedin/</link>
-    <description>Recent content in Linkedin on Me &amp; Life</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://karlaustin.com/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Social Media Page Templates</title>
-      <link>https://karlaustin.com/post/social-media-page-templates/</link>
-      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://karlaustin.com/post/social-media-page-templates/</guid>
-      <description>If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
-In updating a set of profiles for Ilumia Images yesterday I had that very same issue. Fortunately a quick search of Google brought me to the resources page of Every Interaction , a web design business based in London.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linkedin on Me &amp; Life</title><link>https://karlaustin.com/tags/linkedin/</link><description>Recent content in linkedin on Me &amp; Life</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://karlaustin.com/tags/linkedin/index.xml" rel="self" type="application/rss+xml"/><item><title>Social Media Page Templates</title><link>https://karlaustin.com/post/social-media-page-templates/</link><pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate><guid>https://karlaustin.com/post/social-media-page-templates/</guid><description>If you&amp;rsquo;ve ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you&amp;rsquo;ll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
+In updating a set of profiles for Ilumia Images yesterday I had that very same issue. Fortunately a quick search of Google brought me to the resources page of Every Interaction , a web design business based in London.</description></item></channel></rss>

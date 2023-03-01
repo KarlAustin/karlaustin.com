@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cpanel on Me &amp; Life</title>
-    <link>https://karlaustin.com/tags/cpanel/</link>
-    <description>Recent content in Cpanel on Me &amp; Life</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://karlaustin.com/tags/cpanel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>cPanel - Broken FTPS (FTP over TLS) with Java Clients</title>
-      <link>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</link>
-      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid>
-      <description>If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.
-I hit this issue with another website late last week, where the DH params had already been re-generated to 2048 bit, but that change removed.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cpanel on Me &amp; Life</title><link>https://karlaustin.com/tags/cpanel/</link><description>Recent content in cpanel on Me &amp; Life</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://karlaustin.com/tags/cpanel/index.xml" rel="self" type="application/rss+xml"/><item><title>cPanel - Broken FTPS (FTP over TLS) with Java Clients</title><link>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</link><pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate><guid>https://karlaustin.com/post/cpanel-ftp-tls-and-the-java-devil/</guid><description>If you&amp;rsquo;ve gone to edit your site and suddenly found that your chosen IDE won&amp;rsquo;t connect to upload any more via FTPS (FTP using TLS encryption) and your web host runs cPanel, then chances are they&amp;rsquo;re running v56 and your IDE is written in Java.
+I hit this issue with another website late last week, where the DH params had already been re-generated to 2048 bit, but that change removed. Your IDE probably just says it can&amp;rsquo;t connect, that&amp;rsquo;s what JetBrains WebStorm and PhpStorm do although the logs did give more information:</description></item></channel></rss>
