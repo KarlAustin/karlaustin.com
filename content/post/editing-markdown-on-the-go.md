@@ -5,7 +5,7 @@ title = "Editing markdown on the go"
 categories = [ "Blogging" ]
 tags = ["me", "blog", "iOS", "git"]
 +++
-
+{{< load-photoswipe >}}
 # Editing on iOS
 To make it easier for me to actually use my site and put things on it, one of the thing I wanted to do was edit from whatever device I happen to be on at the time.  Most of the time when an idea pops in to my head that's going to mean my phone (iPhone 13 Pro Max) or my iPad.
 
@@ -22,8 +22,8 @@ It's pretty neat, although it does do fancy quotes which I need to work out how 
 You can see from the images below that it's all pretty intuitive and clear in use.
 
 ### Screenshots
-{{< img-fit
-   "4u" "photo.png" ""
-   "4u" "photo-1.png" ""
-   "4u$" "photo-2.png" ""
-   "date" >}}
+{{< gallery caption-position="center" caption-effect="fade" >}}
+{{< figure link="/img/2023/03/photo.png" caption="Repository view" >}}
+{{< figure link="/img/2023/03/photo-2.png" caption="My content" >}}
+{{< figure link="/img/2023/03/photo-3.png" caption="Editing a page" >}}
+{{< /gallery >}}
