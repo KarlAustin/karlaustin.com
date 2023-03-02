@@ -1,125 +1,63 @@
 baseurl = "https://karlaustin.com/"
 languageCode = "en-gb"
 title = "Me & Life"
-theme = "hugo-future-imperfect-slim"
-preserveTaxonomyNames = true
-paginate = 3
-DisqusShortname = "karlaustin"
-googleAnalytics = "UA-75661737-1"
+theme = "poison"
+#preserveTaxonomyNames = true
+pluralizelisttitles = false
+paginate = 5
+#DisqusShortname = "karlaustin"
 
 [params]
-    # Sets the meta tag description, usually reserved for the main page
-    description          = "Me and my life"
-    # This will appear on the top left of the navigation bar
-    navbarTitle          = "Karl Austin"
-    # Social media buttons that appear on the sidebar
-    socialAppearAtTop    = true
-    socialAppearAtBottom = true
-    # set this to the section name if section is not post
-    viewMorePostLink     = "/post/"
+    brand = "Karl Austin"
+    brand_image = "/img/main/logo-150.jpg"
+    dark_mode = true
 
-# Optional Params
-    categoriesByCount    = true
-    includeReadingTime   = true
-    # The set of favicons used are based on the write-up from this link:
-    # https://github.com/audreyr/favicon-cheat-sheet
-    # Please see the favicon partial template for more information
-    loadFavicon          = false
-    faviconVersion       = ""
-    # Load minified files instead of the non minified files. The variable
-    # is an array so that you can load multiple min files if necessary
-    # Note: There are other ways to approach minification
-    # This is just an additional option if you wish to use this
-    #minifiedFilesCSS     = ["/css/main.min.css"]
-    #minifiedFilesJS      = ["/js/main.min.js"]
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/post/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
 
-    cssFiles              = ["default"]
-    jsFiles               = ["default"]
-    highlightjs           = true
-    highlightjsTheme      = ""
-    highlightjsLang       = []
-    viewMorePostsLink     = "blog"
-    readingTime           = true
-    imageStretch          = ""
-    removeBlur            = false
+    github_url = "https://github.com/KarlAustin"
+    linkedin_url = "https://www.linkedin.com/in/karlaustinuk/"
+    twitter_url = "https://twitter.com/KarlAustin"
+    discord_url = "https://discord.com"
+    youtube_url = ""
+    instagram_url = "https://www.instagram.com/ilumiaimages/"
+    facebook_url = "https://facebook.com/karlpaustin"
 
-# parms.intro will appear on the sidebar
-# This is optional, but it's suggested to use
-[params.intro]
-    header    = "Me & Life"
+    # sidebar
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_socials_color = "#FFF"          # default is #FFF
+    moon_sun_color = "#FFF"                 # default is #FFF
+    moon_sun_background_color = "#515151"   # default is #515151
 
-    paragraph = "Family, projects, passions and life in general"
+    # light mode
+    text_color = "#222"             # default is #222
+    content_bg_color = "#FAF9F6"    # default is #FAF9F6
+    post_title_color = "#303030"    # default is #303030
+    list_color = "#5a5a5a"          # default is #5a5a5a
+    link_color = "#268bd2"          # default is #268bd2
+    date_color = "#515151"          # default is #515151
+    table_border_color = "#E5E5E5"  # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"  # default is #F9F9F9
 
-    about     = "I'm Karl Austin, I live in Whitwell Derbyshire with my wife Karen and our son George.  I co-own KDA Web Services, we provide web hosting.  I also run Ilumia Images, a photography business as well as getting involved with community groups and events."
-
-# This will also appear on the sidebar.
-# A width of less than 100px is recommended
-# This is optional
-[params.intro.pic]
-    src       = "/img/main/logo-150.jpg"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = true
-    imperfect = false
-    width     = ""
-    alt       = "Me: Karl Austin"
+    # dark mode
+    text_color_dark = "#eee"            # default is #eee
+    content_bg_color_dark = "#121212"   # default is #121212
+    post_title_color_dark = "#DBE2E9"   # default is #DBE2E9
+    list_color_dark = "#9d9d9d"         # default is #9d9d9d
+    link_color_dark = "#268bd2"         # default is #268bd2
+    date_color_dark = "#9a9a9a"         # default is #9a9a9a
+    table_border_color_dark = "#515151" # default is #515151
+    table_stripe_color_dark = "#202020" # default is #202020
 
 
-# Adjust the amount of recent posts on the sidebar.
-# This is optional. The default value 5 will be used
-[params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
-    postAmount          = 5
-    categories          = true
-    categoriesByCount   = true
-
-# Set up your menu items in the navigation bar
-# You can use identifier to prepend a font awesome icon to your text
-[[menu.main]]
-    name = "Blog"
-    url = "/post"
-    identifier = "fa fa-newspaper-o"
-    weight = 1
-
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
-
-# Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
-# The social media icons will appear on the sidebar
-[social]
-    github          = "karlaustin"
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = "21847971@N07"
-    instagram       = "karlaustin"
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = ""
-    slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = "karlpaustin"
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = "karlaustin"
-    email           = ""
+[params.meta]
+    favicon = true
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
