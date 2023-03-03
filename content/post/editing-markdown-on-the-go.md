@@ -22,8 +22,8 @@ It's pretty neat, although it does do fancy quotes which I need to work out how 
 You can see from the images below that it's all pretty intuitive and clear in use.
 
 ### Screenshots
-{{< gallery caption-position="center" caption-effect="fade" >}}
+{{< ilumia-gallery image-height="400px">}}
 {{< figure link="/img/2023/03/photo.png" caption="Repository view" >}}
 {{< figure link="/img/2023/03/photo-2.png" caption="My content" >}}
 {{< figure link="/img/2023/03/photo-3.png" caption="Editing a page" >}}
-{{< /gallery >}}
+{{< /ilumia-gallery >}}

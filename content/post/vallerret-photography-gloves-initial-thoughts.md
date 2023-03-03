@@ -18,22 +18,22 @@ They got my attention as I've never found a pair of gloves that will keep my han
 ## Presentation
 Unfortunately initial impressions are a bit poor.  They've obviously tried to present them nicely whilst keeping the budget down but they've been let down by their packaging supplier.  The Vallerret logo and writing have been embossed on to the cardboard sleeve, but the overprint has missed by a large margin so it all looks very odd and amateur.   The sleeve itself is supposed to be rectangular, but again they've been let down as it hasn't been folded up in to shape so it's half flat, half popped up on one side.  The die cut logo on the front is also tatty, it looks like the die cutter has been over-used, leading to an unclean cut.
 
-{{< img-fit
-    "6u" "20160326-5376.jpg" "Overall packaging"
-    "6u$" "20160326-5378.jpg" "Packaging end view"
-    "6u" "20160327-5396.jpg" "Scruffy die cut logo"
-    "6u$" "20160327-5398.jpg" "Missed over print on embossing and glue leak"
-    "date" >}}
+{{< ilumia-gallery image-height="200px" >}}
+{{< figure link="/img/2016/03/20160326-5376.jpg" caption="Overall packaging" >}}
+{{< figure link="/img/2016/03/20160326-5378.jpg" caption="Packaging end view" >}}
+{{< figure link="/img/2016/03/20160327-5396.jpg" caption="Scruffy die cut logo" >}}
+{{< figure link="/img/2016/03/20160327-5398.jpg" caption="Missed over print on embossing and glue leak with some more words" >}}
+{{< /ilumia-gallery >}}
 
 ---
 
 ## The Gloves
 The gloves themselves are in a simple plastic bag, and separated with a piece of tissue paper to stop them sticking together, more of which later.
 
-{{< img-fit
-    "6u" "20160326-5379.jpg" ""
-    "6u$" "20160326-5382.jpg" ""
-    "date" >}}
+{{< ilumia-gallery image-height="300px" >}}
+{{< figure link="/img/2016/03/20160326-5379.jpg" >}}
+{{< figure link="/img/2016/03/20160326-5382.jpg" >}}
+{{< /ilumia-gallery >}}
 
 ---
 
