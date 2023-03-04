@@ -6,10 +6,10 @@ categories = [ "Blogging" ]
 tags = ["me", "blog", "iOS", "git"]
 +++
 {{< load-photoswipe >}}
-# Editing on iOS
+## Editing on iOS
 To make it easier for me to actually use my site and put things on it, one of the thing I wanted to do was edit from whatever device I happen to be on at the time.  Most of the time when an idea pops in to my head that's going to mean my phone (iPhone 13 Pro Max) or my iPad.
 
-## The options
+### The options
 Having had a Google around for options the two they kept coming up the most were:
 
  1. Working Copy
@@ -21,7 +21,7 @@ It's pretty neat, although it does do fancy quotes which I need to work out how 
 
 You can see from the images below that it's all pretty intuitive and clear in use.
 
-### Screenshots
+#### Screenshots
 {{< ilumia-gallery image-height="400px">}}
 {{< figure link="/img/2023/03/photo.png" caption="Repository view" >}}
 {{< figure link="/img/2023/03/photo-2.png" caption="My content" >}}

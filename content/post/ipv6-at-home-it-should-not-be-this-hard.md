@@ -6,27 +6,27 @@ title = "IPv6 at Home - It Should Not Be This Hard"
 tags = ["internet","ipv6","networking"]
 +++
 
-# 5Ghz Here We Come
+## 5Ghz Here We Come
 
 A few months ago I changed my home router from a [Mikrotik RB2011](https://www.amazon.co.uk/gp/product/B00I4QFQDI/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00I4QFQDI&linkCode=as2&tag=karlaustincom-21) router to a [Linksys WRT1900ACSv2](https://www.amazon.co.uk/gp/product/B01562PSIU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01562PSIU&linkCode=as2&tag=karlaustincom-21) - Not a particularly cheap router, it's still &pound; even now.  I changed because I wanted 5Ghz wireless as the 2.4Ghz around here is massively congested, plus I wanted some faster speeds for copying photos to my NAS.  I've got Gigabit wired to most rooms, but I just can't be bothered to find a cable most of the time to hook up to - I don't usually have one long enough at home, work tends to stay at work these days.
 
-# How Hard Can It Be To Get IPv6 Working?
+## How Hard Can It Be To Get IPv6 Working?
 
 I didn't really like the Linksys interface, so I did what any self respecting IT geek does, I put DD-WRT firmware on it straight away, which it turns out was a mistake.  It has very poor support for IPv6 out of the box, as in virtually non-existent if you just want to put a few details in to the interface and have it work.
 
 After a couple of hours of googling and faffing I'd had enough and went back to the stock Linksys firmware to see what the IPv6 support in that was like, after all it does claim to support IPv6.
 
-# Liar Liar, Pants On Fire
+## Liar Liar, Pants On Fire
 
 Whilst it's true that the WRT1900ACSv2 does support IPv6, it's a bodge.  The only thing it supports is 6rd, which is tunneling mechanism and not native IPv6.  Tunneling is a bodge at the end of the day and high end routers shouldn't just be limiting you to a bodge, they should have proper native IPv6 dual-stack support.  There's no excuse these days. None.
 
-# OpenWRT, Come On Down
+## OpenWRT, Come On Down
 
 After a few minutes ranting at Linksys I switched over to OpenWRT, what a revelation compared to DD-WRT.  The web interface, Luci, was virtually instant with anything asked of it and had proper IPv6 support built right in there; that's not to say I didn't have problems though.
 
 I'm on an FTTC connection from [Goscomb](http://goscomb.net) and for v6 I have a /48 subnet assigned to me - unfortunately this doesn't get pushed to the router by Router Advertisement (RA) or DHCPv6, only the /64 linknet.  Getting the /48 on to the router wasn't an issue, a quick bit of googling gave me the simple and Ubuntu style config file format for the network, within 10 minutes of flashing the router I'd got IPv6 addresses out to the clients.  That's when the fun began.
 
-# No IPv6 Connectivity
+## No IPv6 Connectivity
 
 Once the clients had got an IPv6 address, they couldn't actually get to anything out on the net.  That's when a couple of hours of fiddling around started, I could either:
 
@@ -38,11 +38,11 @@ or
 
 but not both.  After a while I did get both happening, but still no IPv6 from clients to the net.
 
-# The Solution
+## The Solution
 
 It turns out the default route that was being configured to send IPv6 from the router, to the other end (Goscomb) of the Link-Local v6 subnet wasn't actually doing it's job and I had to manually configure an IPv6 default route to just aim all v6 traffic at the wan interface.  A very simple thing to do, but one that still took too long to find and work out late at night.
 
-# My Config (Redacted)
+## My Config (Redacted)
 
 /etc/config/network
 ~~~~
@@ -124,7 +124,7 @@ config odhcpd 'odhcpd'
 ~~~~
 
 
-# This Is My Day Job - It Shouldn't Be This Hard!
+## This Is My Day Job - It Shouldn't Be This Hard!
 
 Bearing in mind this is my day job and I work with routers that are insanely complex compared to your average home router and cost well in to 5 figures at the low end, it just shouldn't be this difficult.  I get that most people use a router from their ISP so that all of this is hidden from them, bt there are still an awful lot of people who don't because their ISP doesn't provide one, or the one it does provide is awful.
 

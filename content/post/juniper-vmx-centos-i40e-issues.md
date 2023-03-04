@@ -8,12 +8,12 @@ date = "2018-01-19"
 draft = false
 +++
 
-# vMX - Nice if you can make it work
+## vMX - Nice if you can make it work
 I like Juniper's vMX product, I like JunOS and vMX makes it much more affordable to run inside your network.
 
 What I don't like is the rather sketchy documentation that gives the impression they'd rather you don't run vMX.  It's clear that Ubuntu is their primary platform along with VMware now.  They list support for Redhat and CentOS, but with CentOS at least there are some issues that the documentation doesn't cover.
 
-# The i40e Showstopper
+## The i40e Showstopper
 If you want to use Intel i40e NICs, which at this moment in time means Intel X710 and XL710 for your vMX and you're running CentOS then you're going to hit an issue with everything up to vMX 17.4 (and possibly higher).
 ```
 Check I40E drivers................................
@@ -49,7 +49,7 @@ make: *** [i40e/i40e.ko] Error 2
 
 The first thing you might think to do is go and fetch the i40e drivers from the Intel site - **don't** do that, your router won't work properly.  The i40e drivers are modified by Juniper, hence why they ship their own with vMX.
 
-# The Solution
+## The Solution
 Fortunately the solution is pretty trivial, annoyingly so.
 
 Open up:
@@ -63,7 +63,7 @@ Add the following on the line after:
 
 Re-run your install and it should happily compile the i40e drivers for you.
 
-# Questions
+## Questions
 You'll probably then do like I did, and wonder why on Earth Juniper didn't just apply a patch to the driver when it detects i40e NICs in a CentOS system if this is a known issue.  The only answer I have for that is, *router vendors*.
 
 You might also ask why the documentation doesn't mention it as well, as following Juniper's CentOS install guide it's impossible to get vMX up and running; Again, I have no answer for that or why other items are wrong.
