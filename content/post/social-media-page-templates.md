@@ -5,7 +5,8 @@ title = "Social Media Page Templates"
 categories = [ "Websites" ]
 tags = ["facebook", "twitter", "linkedin", "google+", "youtube"]
 +++
-{{< img-post path="date" type="right" file="EveryInteraction-Resources.jpg" alt="Every Interaction: Resources Page" >}}
+{{< figure pull="right" link="/img/2016/03/EveryInteraction-Resources.jpg" caption="Every Interaction: Resources Page" image-height="400px" >}}
+
 If you've ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you'll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
 
 In updating a set of profiles for Ilumia Images yesterday I had that very same issue.  Fortunately a quick search of Google brought me to the resources page of {{< url-link "Every Interaction" "http://www.everyinteraction.com/resources/" >}}, a web design business based in London.  The page has PSD templates for:
