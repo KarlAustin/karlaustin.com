@@ -1,7 +1,11 @@
 ul.ilumia-gallery { display: flex; flex-wrap: wrap; padding: 5px; justify-content: space-evenly; list-style: none }
 ul.ilumia-gallery li { padding: 5px; margin: 0; display: flex; flex-flow: column; justify-content: flex-start }
-ul.ilumia-gallery li figure { margin: 0; display: table; position: relative }
-ul.ilumia-gallery li figure img { flex-grow: 1; vertical-align: baseline; margin: 0; padding: 0; border: 0; object-fit: cover }
-ul.ilumia-gallery li figure figcaption { display: table-cell; position: absolute; top: 0; margin: 0; padding: 0%; background-color: rgba(0,0,0,0.8); height: 100%; width: 100%; top: 0%; transition: visibility 0s, opacity 1s ease-in-out; visibility: hidden; opacity: 0 }
-ul.ilumia-gallery li:hover figure figcaption { visibility: visible; opacity: 1; }
-ul.ilumia-gallery li figure figcaption p { font-size: 0.7rem; text-align: center; margin: 0; padding: 5%; background-color: rgba(50,50,50,0.9); transform: translateY(50%) }
+ul.ilumia-gallery li figure, figure { margin: 0; display: table; position: relative }
+ul.ilumia-gallery li figure img, figure img { flex-grow: 1; vertical-align: baseline; margin: 0; padding: 0; border: 0; object-fit: cover }
+ul.ilumia-gallery li figure figcaption, figure figcaption { display: table-cell; position: absolute; top: 0; margin: 0; padding: 0%; background-color: rgba(0,0,0,0.8); height: 100%; width: 100%; top: 0%; transition: visibility 0s, opacity 1s ease-in-out; visibility: hidden; opacity: 0 }
+ul.ilumia-gallery li:hover figure figcaption, figure:hover figcaption { visibility: visible; opacity: 1; }
+ul.ilumia-gallery li figure figcaption p, figure figcaption p { font-size: 0.7rem; text-align: center; margin: 0; padding: 5%; background-color: rgba(50,50,50,0.9); transform: translateY(50%) }
+figure { margin-bottom: 1rem }
+.ilumia-center { margin-left: auto; margin-right: auto; }
+.ilumia-left { margin-left: 0; margin-right: auto; }
+.ilumia-right { margin-left: auto; margin-right: 0; }
