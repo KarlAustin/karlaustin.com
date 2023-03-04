@@ -8,7 +8,8 @@ aliases = ["/post/valleret-photography-gloves-initial-thoughts/"]
 +++
 
 # Vallerret Photography Gloves
-{{< img-post path="date" file="20160327-5399.jpg" alt="Vallerret Photography Gloves" type="right" >}}
+{{< figure link="/img/2016/03/20160327-5399.jpg" caption="Vallerret Photography Gloves" align="center" >}}
+
 I first came across the Vallerret Photography Gloves on {{< url-link "Kickstarter" "https://www.kickstarter.com/projects/1823457299/photography-gloves-extend-your-session-in-style" >}} back in December 2015 and today they were waiting for me when I got home from the coffee morning.
 
 They got my attention as I've never found a pair of gloves that will keep my hands *warm* **and** *allow* me to operate my camera as well.  It was either cold hands or fumbling with the camera, with the increased risk of dropping it.  These gloves are designed for photographers and come with some useful features as well as a nice warm merino wool inner.
@@ -38,13 +39,15 @@ The gloves themselves are in a simple plastic bag, and separated with a piece of
 ---
 
 ### Fit
-{{< img-post path="date" file="20160326-5387.jpg" alt="Baggy thumb" type="right" size="small" >}}
+{{< figure link="/img/2016/03/20160326-5387.jpg" caption="Baggy thumb" height="300px" align="center" >}}
+
 I ordered a medium size based on the sizing guidelines given in the Kickstarter survey, they are't quite a perfect fit, as you can see below the thumb is quite long which results in it flopping over when trying to press any buttons on the camera.  I can get it to fit perfectly, but after 3 or 4 movements it's back to where it naturally starts, with the joint raising away from my hand.  The other fingers all sit pretty much perfect although between the fingers, especially around the index finger they pull down quite hard which can be a little uncomfortable.  I don't think I'd have wanted a large size as I think they would have been too baggy everywhere else, but without having a pair to try I can't say for sure.
 
 ---
 
 ### Flipping Fingers
-{{< img-post path="date" file="20160326-5384.jpg" alt="Baggy thumb" type="left" size="small" >}}
+{{< figure link="/img/2016/03/20160326-5384.jpg" caption="Flipping fingers" height="300px" align="center">}}
+
 There also appears to be another small problem, the forefinger and thumb have flip over finger ends, so if you need you can get better control over your camera.  The forefinger closes up perfectly, you'd not know it was there, the thumb however doesn't, gloves on or off it won't stay closed up on either hand.  I don't know if this is a manufacturing fault or just how they've been designed, so I'll be contacting Vallerret to ask about it as the idea is that these should keep your fingers completely covered and warm when needed.
 
 ---
