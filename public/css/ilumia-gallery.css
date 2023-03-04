@@ -6,6 +6,8 @@ ul.ilumia-gallery li figure figcaption, figure figcaption { display: table-cell;
 ul.ilumia-gallery li:hover figure figcaption, figure:hover figcaption { visibility: visible; opacity: 1; }
 ul.ilumia-gallery li figure figcaption p, figure figcaption p { font-size: 0.85rem; text-align: center; margin: 0; padding: 5%; background-color: rgba(50,50,50,0.9); transform: translateY(50%) }
 figure { margin-bottom: 1rem }
-.ilumia-center { margin-left: auto; margin-right: auto; }
-.ilumia-left { margin-left: 0; margin-right: auto; }
-.ilumia-right { margin-left: auto; margin-right: 0; }
+.ilumia-align-center { margin-left: auto; margin-right: auto; }
+.ilumia-align-left { margin-left: 0; margin-right: auto; }
+.ilumia-align-right { margin-left: auto; margin-right: 0; }
+.ilumia-pull-left { margin-left: 0; margin-right: 2rem; float: left }
+.ilumia-pull-right { margin-left: 2rem; margin-right: 0; float: right }
