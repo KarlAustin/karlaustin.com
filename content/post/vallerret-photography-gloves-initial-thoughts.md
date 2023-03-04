@@ -22,7 +22,7 @@ Unfortunately initial impressions are a bit poor.  They've obviously tried to pr
 {{< figure link="/img/2016/03/20160326-5376.jpg" caption="Overall packaging" >}}
 {{< figure link="/img/2016/03/20160326-5378.jpg" caption="Packaging end view" >}}
 {{< figure link="/img/2016/03/20160327-5396.jpg" caption="Scruffy die cut logo" >}}
-{{< figure link="/img/2016/03/20160327-5398.jpg" caption="Missed over print on embossing and glue leak with some more words" >}}
+{{< figure link="/img/2016/03/20160327-5398.jpg" caption="Missed over print on embossing and glue leak" >}}
 {{< /ilumia-gallery >}}
 
 ---
