@@ -15,7 +15,7 @@ What I don't like is the rather sketchy documentation that gives the impression 
 
 ## The i40e Showstopper
 If you want to use Intel i40e NICs, which at this moment in time means Intel X710 and XL710 for your vMX and you're running CentOS then you're going to hit an issue with everything up to vMX 17.4 (and possibly higher).
-```
+```termcap
 Check I40E drivers................................
 [Command] cd /usr/local/vmx/live/drivers/i40e-1.3.46/src
 
