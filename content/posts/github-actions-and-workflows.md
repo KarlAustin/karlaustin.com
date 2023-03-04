@@ -34,7 +34,7 @@ Fail.  I forgot my repo is so old that it was stil called master and not main, a
 #### Attempt 2
 Fail.  A few gotchas it seems with the examples given online for running Hugo builds as workflows.  I needed to add:
 
-```
+```toml {linenos=table,hl_lines=2}
 permissions:
   packages: read
 ```
