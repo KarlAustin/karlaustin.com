@@ -24,15 +24,15 @@ Even though I had no one else modelling for me, it wasn't a wasted session.  I s
 More importantly then that though, I learnt that I really do need to get off my backside and join the gym, enough is enough.  I've put on about 12Kg (nearly 2 stone) since we got married at the end of 2012, it's time that it went.
 
 ## The Results
-{{< ilumia-gallery image-height="300px" >}}
-    {{< figure link="/img/2016/04/20160402-5507.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5533.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5533-2.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5537.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5543.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5552.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5555.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5557.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5576.jpg" >}}
-    {{< figure link="/img/2016/04/20160402-5595.jpg" >}}
+{{< ilumia-gallery image-height="300" >}}
+    {{< figure link="20160402-5507.jpg" >}}
+    {{< figure link="20160402-5533.jpg" >}}
+    {{< figure link="20160402-5533-2.jpg" >}}
+    {{< figure link="20160402-5537.jpg" >}}
+    {{< figure link="20160402-5543.jpg" >}}
+    {{< figure link="20160402-5552.jpg" >}}
+    {{< figure link="20160402-5555.jpg" >}}
+    {{< figure link="20160402-5557.jpg" >}}
+    {{< figure link="20160402-5576.jpg" >}}
+    {{< figure link="20160402-5595.jpg" >}}
 {{< /ilumia-gallery >}}

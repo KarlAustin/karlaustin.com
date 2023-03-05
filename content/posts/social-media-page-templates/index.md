@@ -5,7 +5,7 @@ title = "Social Media Page Templates"
 categories = [ "Websites" ]
 tags = ["facebook", "twitter", "linkedin", "google+", "youtube"]
 +++
-{{< figure pull="right" link="/img/2016/03/EveryInteraction-Resources.jpg" caption="Every Interaction: Resources Page" image-height="400px" >}}
+{{< figure pull="right" link="EveryInteraction-Resources.jpg" caption="Every Interaction: Resources Page" image-height="400" >}}
 
 If you've ever had to maintain a couple of Facebook, Twitter, LinkedIn etc. pages you'll know what a pain it can be when they keep changing how things look and the sizes you need for your header and profile images.
 

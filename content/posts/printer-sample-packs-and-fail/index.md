@@ -24,11 +24,11 @@ Another folder, this time A4 inside the nice white envelope.  Inside the folder 
 ### JAK Inc
 Talk about disappointing.  After waiting for a week after the first sample pack turned up I was expecting something a bit special, how wrong I was.  What I got was a small pink envelope with four postcard sized print samples and two business card samples inside.  The only indication of who these samples were from was the handwritten "Jak Inc" on the inside of the envelope flap.  For a company that makes products that are all about presentation and making a good impression, their first impressions were incredibly poor compared to their similarly priced competition.
 ## The samples
-{{< ilumia-gallery image-height="250px" >}}
-    {{< figure link="/img/2016/05/IMG_20160520_201623.jpg" caption="Printed.com" >}}
-    {{< figure link="/img/2016/05/IMG_20160520_201702.jpg" caption="Solopress" >}}
-    {{< figure link="/img/2016/05/IMG_20160520_201829.jpg" caption="digitalprinting.co.uk" >}}
-    {{< figure link="/img/2016/05/IMG_20160520_201927.jpg" caption="JAK Inc" >}}
+{{< ilumia-gallery image-height="250" >}}
+    {{< figure link="IMG_20160520_201623.jpg" caption="Printed.com" >}}
+    {{< figure link="IMG_20160520_201702.jpg" caption="Solopress" >}}
+    {{< figure link="IMG_20160520_201829.jpg" caption="digitalprinting.co.uk" >}}
+    {{< figure link="IMG_20160520_201927.jpg" caption="JAK Inc" >}}
 {{< /ilumia-gallery >}}
 ## Print Quality
 All of the samples were of a good quality with nothing really to chose between them, despite what my phone pictures above might be telling you.
