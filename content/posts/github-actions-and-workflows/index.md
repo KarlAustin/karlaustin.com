@@ -4,6 +4,7 @@ draft = false
 title = "Github Actions and Workflows"
 categories = [ "Development" ]
 tags = ["me", "dev", "git", "github"]
+series = "Github Workflows"
 +++
 
 As per my [Hello Again]({{< ref "hello-again.md" >}} "Hello Again") post I'm looking at automating some of my content creation.
