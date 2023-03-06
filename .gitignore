@@ -3,3 +3,4 @@ published
 .idea
 .hugo_build.lock
 resources/_gen
+config.toml.dev
