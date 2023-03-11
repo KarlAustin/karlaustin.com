@@ -5,6 +5,7 @@ title = "Vallerret Photography Gloves - Initial Thoughts"
 categories = [ "Photography"]
 tags = ["vallerret", "gloves", "photography", "clothing", "kickstarter", "review"]
 aliases = ["/post/valleret-photography-gloves-initial-thoughts/"]
+image = "20160327-5399.jpg"
 +++
 
 ## Vallerret Photography Gloves
