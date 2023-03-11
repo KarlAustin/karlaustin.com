@@ -10,8 +10,8 @@ paginate = 5
 [params]
     brand = "Karl Austin"
     brand_image = "/img/main/logo-150.jpg"
-    og_image = "/img/main/logo-150.jpg"
-    publisher_icon = "/img/main/logo-150.jpg"
+    og_image = "/img/site/og_image.jpg"
+    publisher_icon = ""
     dark_mode = true
 
     menu = [
