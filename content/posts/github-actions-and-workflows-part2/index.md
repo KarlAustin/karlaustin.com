@@ -4,7 +4,7 @@ draft = false
 title = "Github Actions and Workflows - Part 2"
 categories = [ "Development" ]
 tags = ["me", "dev", "git", "github"]
-series = "Github Workflows"
+series = ["Github Workflows"]
 +++
 
 ## The new state of play
