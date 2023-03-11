@@ -4,3 +4,4 @@ published
 .hugo_build.lock
 resources/_gen
 config.toml.dev
+content/posts/*/*.swp
