@@ -32,7 +32,10 @@ The price hikes would be easier to swallow if the core product was getting drama
 
 
 
-Rather than fixing the fundamentals or making life easier for sysadmins, WebPros seems obsessed with bolting on fluff features nobody asked for. Worse still, they're turning our own control panels into a shopfront for their own add-ons.
+Rather than fixing the fundamentals or making life easier for sysadmins, WebPros seems obsessed with bolting on fluff features nobody asked for.  It's not always the big things either, it's the everyday little things, the lack of mobile views for admins, the fact the 2FA code box doesn't trigger a number-pad on mobile etc. there's 100s of them.
+
+
+Worse still though, whilst they are neglecting us admins, they're turning our own control panels into a shopfront for their own add-ons.
 
 
 
