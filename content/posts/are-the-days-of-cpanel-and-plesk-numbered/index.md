@@ -10,7 +10,7 @@ description: "Annual price hikes, bloated features, and aggressive upselling fro
 
 tags: ["hosting", "cpanel", "plesk", "webpros", "infrastructure", "opinion"]
 
-categories: ["Hosting \& Infrastructure"]
+categories: ["Hosting & Infrastructure"]
 
 ---
 Another year, another renewal notice from WebPros, and another round of eye-watering price increases. If you run a hosting business, you know the drill by now. Every autumn, we sit down with a spreadsheet, squint at the new licensing tiers for cPanel and Plesk, and try to work out how much of that cost we can absorb before we're forced to pass it on to customers.
