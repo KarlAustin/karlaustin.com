@@ -18,7 +18,7 @@ Another year, another renewal notice from WebPros, and another round of eye-wate
 Give them their dues: for years, both panels were the undisputed backbone of shared hosting. They worked, clients knew how to use them, and the licensing was predictable enough that you didn't lose sleep over it. That era is well and truly dead.
 
 
-## Death by a Thousand Upsells
+## Death by a thousand upsells
 
 The price hikes would be easier to swallow if the core product was getting dramatically better for hosting providers. Instead, we're paying more every year to maintain stacks that feel increasingly long in the tooth. Underneath the fresh coat of UI paint sits decades of legacy architecture that still requires plenty of babysitting.
 
@@ -35,7 +35,7 @@ Worse still though, whilst they are neglecting us admins, they're turning our ow
 When a vendor starts treating your customer base as their own direct sales funnel, the relationship has fundamentally broken down. You're paying them for the privilege of letting them poach margin from your own clients.
 
 
-## So, What's the Fix?
+## So, what's the fix?
 
 For a long time, migrating away from cPanel or Plesk was a non-starter. The engineering overhead of moving thousands of sites and retraining clients who just want to check their webmail made swallowing the licensing fee the lesser of two evils.
 
@@ -52,7 +52,7 @@ That maths doesn't work anymore. The gap between the cost of a WebPros licence a
 None of these options are a zero-effort drop-in replacement. Migrating legacy estates is still a faff, and you have to weigh the maintenance burden against your team's actual capacity. At least you're investing engineering time into an asset you control, rather than funding a vendor's next round of price rises.
 
 
-## The Venture Capital Playbook
+## The venture capital playbook
 
 None of this is accidental, and none of it should surprise anyone who has watched private equity and venture capital tear through the infrastructure space over the last decade.
 
@@ -61,5 +61,4 @@ WebPros isn't trying to build the best hosting control panel for the next twenty
 
 ## You know where this is going...
 
-We've been a WebPros partner for 25 years, and walking away from a stack that long isn't something we take lightly. Even so, we're actively looking at ditching them. When a vendor stops acting like a partner and starts squeezing our margins at every turn, loyalty only goes so far.
-
+We've been a WebPros partner for 25 years, and walking away from a stack that long isn't something we take lightly. Even so, we're actively looking at our options. When a vendor stops acting like a partner and starts squeezing our margins at every turn, loyalty only goes so far.
