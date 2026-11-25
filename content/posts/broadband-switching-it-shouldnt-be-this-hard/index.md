@@ -49,3 +49,7 @@ I work in tech and I find it a pain.
 We spend around £2,500 a year with Vodafone in total, and we influence roughly the same again elsewhere. So they aren't just losing a £60 (+ VAT) a month broadband deal, they're potentially losing a lot more than that going forwards.
 
 Between fake-out portal buttons, trackers breaking support tools, bots acting as bouncers, and fragile web sessions, the whole experience is broken. It really shouldn't be this hard.
+
+### Update
+
+We eventually got there, and someone from Openreach will be turning up to replace me "modem" on 9 December.
