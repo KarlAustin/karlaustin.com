@@ -52,4 +52,4 @@ Between fake-out portal buttons, trackers breaking support tools, bots acting as
 
 ### Update
 
-We eventually got there, and someone from Openreach will be turning up to replace my "modem" on 9 December.
+We eventually got there, and someone from Openreach will be turning up to replace my "modem" on 9 December.  Why I can't just unplug the PSU, fibre and Cat6 myself and plug a new ONT is anyone's guess.
